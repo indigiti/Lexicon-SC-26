@@ -1,7 +1,7 @@
 <?php $schools = content('schools'); ?>
 <section class="editorial-hero contact-hero"><div class="container editorial-hero-grid">
   <div class="editorial-hero-copy"><div class="eyebrow">Get in Touch</div><h1>Visit. Enquire.<br>Start a conversation.</h1><p>Whether you are exploring admissions, planning a campus visit or looking for the right school community, our three Pune campuses are ready to help.</p><div class="hero-actions"><a class="btn btn-lexicon" href="/enquire">Enquire Now ↗</a><a class="btn btn-outline-lexicon" href="#schools">Find a School</a></div></div>
-  <div class="contact-hero-schools"><?php foreach($schools as $school): ?><a href="#<?= e($school['slug']) ?>"><img src="<?= e($school['image']) ?>" alt="<?= e($school['name']) ?>"><span><b><?= e($school['short']) ?></b><small><?= e($school['grades']) ?> · <?= e($school['board']) ?></small></span></a><?php endforeach; ?></div>
+  <div class="contact-hero-schools"><?php foreach($schools as $school): ?><a href="#<?= e($school['slug']) ?>"><img src="<?= e($school['cardImage'] ?? $school['image']) ?>" alt="<?= e($school['name']) ?> entrance" loading="lazy" decoding="async"><span><b><?= e($school['short']) ?></b><small><?= e($school['grades']) ?> · <?= e($school['board']) ?></small></span></a><?php endforeach; ?></div>
 </div></section>
 
 <nav class="section-jump" aria-label="Contact sections"><div class="container"><a href="/enquire">Enquire</a><a href="/book-a-visit">Book a Visit</a><a href="/campus-tour">Campus Tour</a><a href="#schools">School Contacts &amp; Maps</a></div></nav>
