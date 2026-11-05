@@ -1000,3 +1000,28 @@ html.menu-open body.page,html.menu-open body.home-page{overflow:hidden!important
 .page-about #leadership .leader span strong{display:block;font-weight:650;color:#334a6a}
 @media(max-width:1250px){.page-about #leadership .leadership-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:24px}}
 @media(max-width:700px){.page-about #leadership .leadership-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:23px 14px}.page-about #leadership .leader b{font-size:14px;min-height:0}.page-about #leadership .leader span{font-size:12px}}
+
+/* Verified campus contact directory — common source for Contact, School & Admissions. */
+.map-campus-card{grid-template-columns:minmax(0,.92fr) minmax(0,1.08fr)}
+.map-campus-info{padding:clamp(22px,2.75vw,36px);min-width:0}
+.map-campus-info h3{font-size:clamp(24px,2.7vw,34px);line-height:1.14}
+.map-campus-info .campus-contact-directory{width:100%;margin:16px 0 4px;border:1px solid #e2e9f3;background:#f7f9fc;border-radius:12px;padding:15px 17px}
+.campus-contact-group+.campus-contact-group{margin-top:14px;padding-top:12px;border-top:1px solid #e1e8f2}
+.campus-contact-group-label{font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.11em;color:#6680a3;margin-bottom:7px}
+.campus-contact-links{display:flex;flex-wrap:wrap;gap:7px 14px}
+.campus-contact-links a,.campus-contact-emails a{font-size:12px;line-height:1.5;color:#123d79;text-decoration:none;font-weight:700;overflow-wrap:anywhere}
+.campus-contact-links a:hover,.campus-contact-emails a:hover{text-decoration:underline}
+.campus-contact-emails{display:grid;gap:6px}
+.campus-contact-email{display:flex;gap:8px;align-items:baseline;justify-content:space-between;flex-wrap:wrap}
+.campus-contact-email span{font-size:11px;color:#5e708b}
+.campus-contact-codes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;border-top:1px solid #e1e8f2;margin-top:14px;padding-top:12px}
+.campus-contact-codes>div{min-width:0}
+.campus-contact-codes span{font-size:10px;color:#697c97;display:block}
+.campus-contact-codes strong{font-size:13px;font-weight:800;color:#122c60;display:block;margin-top:3px;font-variant-numeric:tabular-nums}
+.map-campus-info .map-actions{margin-top:18px}
+.comparison-contact-list{display:grid;gap:7px}
+.comparison-contact-list a{color:#163c79;text-decoration:none;white-space:nowrap;font-size:12px}
+.comparison-contact-list a:hover{text-decoration:underline}
+.campus-contact-links a:focus-visible,.campus-contact-emails a:focus-visible,.comparison-contact-list a:focus-visible{outline:2px solid #245cce;outline-offset:3px;border-radius:2px}
+@media(max-width:900px){.map-campus-card{grid-template-columns:1fr}.map-campus-card .map-frame{min-height:280px}.map-campus-card .map-frame iframe{min-height:280px}}
+@media(max-width:560px){.campus-contact-email{display:block}.campus-contact-email span{display:block}.campus-contact-links{display:grid;grid-template-columns:1fr 1fr;gap:8px}.campus-contact-links a{font-size:11px}}

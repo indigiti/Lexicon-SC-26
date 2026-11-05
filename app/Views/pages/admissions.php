@@ -11,7 +11,7 @@
 <tr><th scope="row">UDISE</th><?php foreach ($admissionSchools as $school): ?><td><?= e($school['udise'] ?? '') ?></td><?php endforeach; ?></tr>
 <tr><th scope="row">School timings</th><?php foreach ($admissionSchools as $school): ?><td><?= e($school['timings'] ?? 'Confirm with campus') ?></td><?php endforeach; ?></tr>
 <tr><th scope="row">School email</th><?php foreach ($admissionSchools as $school): ?><td><?php if (!empty($school['email'])): ?><a href="mailto:<?= e($school['email']) ?>"><?= e($school['email']) ?></a><?php else: ?><a href="/contact#<?= e($school['slug']) ?>">Request school contact</a><?php endif; ?></td><?php endforeach; ?></tr>
-<tr><th scope="row">Phone</th><?php foreach ($admissionSchools as $school): ?><td><a href="tel:<?= e($school['phoneHref']) ?>"><?= e($school['phone']) ?></a></td><?php endforeach; ?></tr>
+<tr><th scope="row">Phone</th><?php foreach ($admissionSchools as $school): ?><td><div class="comparison-contact-list"><?php foreach (($school['contactPhones'] ?? []) as $phone): ?><a href="tel:<?= e($phone['href']) ?>"><?= e($phone['display']) ?></a><?php endforeach; ?></div></td><?php endforeach; ?></tr>
 <tr><th scope="row">Fees &amp; Class XI streams</th><?php foreach ($admissionSchools as $school): ?><td><a href="/schools/<?= e($school['slug']) ?>/admissions">Campus admissions guide →</a></td><?php endforeach; ?></tr>
 <tr><th scope="row">Transport</th><?php foreach ($admissionSchools as $school): ?><td><a href="/schools/<?= e($school['slug']) ?>/transport">Check routes →</a></td><?php endforeach; ?></tr>
 </tbody></table></div></div></section>

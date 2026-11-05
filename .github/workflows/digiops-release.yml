@@ -51,6 +51,8 @@ jobs:
           node --check public/build/assets/app.js
           cmp build/assets/app.css public/build/assets/app.css
           cmp build/assets/app.js public/build/assets/app.js
+      - name: Verify campus contact directories
+        run: php tools/check-campus-contacts.php
       - name: Prepare DigiOps release
         run: |
           php tools/package-digiops-release.php
