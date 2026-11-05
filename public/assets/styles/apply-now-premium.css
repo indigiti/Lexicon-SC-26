@@ -1,0 +1,112 @@
+/* Apply Now editorial motion design — isolated to this route only. */
+.page-apply-now{--apply-deep:#071a43;--apply-soft:#eaf0fa;--apply-coral:#f26949;background:#fff}
+.page-apply-now .apply-page-hero{position:relative;isolation:isolate;overflow:hidden;padding:clamp(64px,8vw,112px) 0 84px;background:radial-gradient(ellipse at 79% 17%,#1d4175 0%,transparent 43%),linear-gradient(138deg,#07142e 3%,#0a2455 56%,#123970 100%);border-bottom:0;color:#fff}
+.page-apply-now .apply-page-hero:before{content:"";position:absolute;z-index:-1;inset:-30% -8% auto auto;width:60vw;max-width:900px;aspect-ratio:1;border-radius:50%;border:1px solid rgba(255,255,255,.08);box-shadow:0 0 0 85px rgba(255,255,255,.018),0 0 0 170px rgba(255,255,255,.018);pointer-events:none}
+.page-apply-now .apply-page-hero .journey-hero-grid{grid-template-columns:minmax(0,.97fr) minmax(0,1.03fr);gap:clamp(28px,5vw,80px);align-items:center}
+.page-apply-now .apply-page-hero .journey-copy{padding:0;position:relative;z-index:2}
+.page-apply-now .apply-page-hero .eyebrow{color:#c2d4fa;letter-spacing:.19em;font-size:11px;font-weight:800;text-transform:uppercase}
+.page-apply-now .apply-page-hero .eyebrow:before{background:var(--apply-coral)}
+.page-apply-now .apply-page-hero h1{font-family:var(--lx-serif);font-size:clamp(60px,6.2vw,106px);font-weight:500;line-height:.88;letter-spacing:-.055em;margin:24px 0 32px;text-wrap:balance;color:#fff}
+.page-apply-now .apply-page-hero h1 em{font-weight:500;font-style:italic;color:#ffd6b4}
+.page-apply-now .apply-page-hero p{color:#d2def3;font-size:clamp(15px,1.2vw,17px);line-height:1.8;max-width:550px}
+.page-apply-now .apply-page-hero .hero-actions{gap:12px;margin-top:36px}
+.page-apply-now .apply-page-hero .btn{min-height:50px;border-radius:100px;padding:14px 23px;transition:transform .25s ease,background-color .25s ease,box-shadow .25s ease}
+.page-apply-now .apply-page-hero .btn-lexicon{background:var(--apply-coral);border-color:var(--apply-coral);box-shadow:0 12px 32px rgba(242,105,73,.23);color:#151b2e}
+.page-apply-now .apply-page-hero .btn-outline-lexicon{background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.3);color:#fff}
+.page-apply-now .apply-page-hero .btn:hover{transform:translateY(-3px)}
+.page-apply-now .apply-hero-art{min-height:570px;display:grid;grid-template-columns:1.08fr .85fr;grid-template-rows:275px 235px;gap:17px;position:relative;padding:16px 0 0 16px}
+.page-apply-now .apply-visual{margin:0;position:relative;overflow:hidden;border-radius:22px;background:#274878;border:1px solid rgba(255,255,255,.22);box-shadow:0 23px 60px rgba(0,0,0,.26);transform:translateZ(0)}
+.page-apply-now .apply-visual-1{grid-row:1/3;transform:translateY(28px)}
+.page-apply-now .apply-visual-2{transform:translateY(-9px)}
+.page-apply-now .apply-visual-3{transform:translateY(2px)}
+.page-apply-now .apply-visual img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .8s cubic-bezier(.22,1,.36,1),filter .6s ease}
+.page-apply-now .apply-visual:hover img{transform:scale(1.075)}
+.page-apply-now .apply-visual:after{content:"";position:absolute;inset:30% 0 0;background:linear-gradient(transparent,rgba(3,17,42,.8));pointer-events:none}
+.page-apply-now .apply-visual figcaption{position:absolute;inset:auto 19px 18px;z-index:2;display:flex;align-items:center;justify-content:space-between;gap:10px;color:#fff;font-size:13px;font-weight:800}
+.page-apply-now .apply-visual figcaption span:last-child{font-size:20px;font-weight:400}
+.page-apply-now .apply-art-stamp{position:absolute;z-index:3;left:-44px;top:42%;width:166px;height:166px;border-radius:50%;border:1px solid rgba(255,255,255,.64);background:#faf1dd;color:#0b285c;display:flex;align-items:center;justify-content:center;flex-direction:column;text-align:center;transform:rotate(-13deg);box-shadow:0 15px 40px rgba(0,0,0,.18);pointer-events:none}
+.page-apply-now .apply-art-stamp span{font:700 10px var(--lx-sans);text-transform:uppercase;letter-spacing:.14em}
+.page-apply-now .apply-art-stamp strong{font:italic 600 28px/.94 var(--lx-serif);margin-top:9px}
+.page-apply-now .apply-journey-strip{background:#f7f6f1;border-bottom:1px solid #e8e3d9}
+.page-apply-now .apply-journey-steps{display:flex;align-items:center;gap:24px;justify-content:space-between;min-height:86px;padding-top:14px;padding-bottom:14px}
+.page-apply-now .apply-journey-steps span{display:flex;gap:12px;align-items:center;font-size:12px;font-weight:800;color:#16315c}
+.page-apply-now .apply-journey-steps b{color:var(--apply-coral);font:600 27px var(--lx-serif)}
+.page-apply-now .apply-journey-steps i{height:1px;min-width:35px;flex:1;background:#d7d9de}
+.page-apply-now .apply-readiness{background:#fff}
+.page-apply-now .section-head-row{gap:28px}
+.page-apply-now .section-title{font-family:var(--lx-serif);font-weight:500;letter-spacing:-.04em}
+.page-apply-now .apply-check-grid{gap:15px}
+.page-apply-now .apply-check-grid article{border:1px solid #e2e7f0;border-top:3px solid #e8ae8a;border-radius:16px;background:#fff;padding:29px;min-height:285px;box-shadow:0 15px 40px rgba(22,45,89,.035);transition:transform .3s ease,box-shadow .3s ease}
+.page-apply-now .apply-check-grid article:hover{transform:translateY(-5px);box-shadow:0 19px 40px rgba(22,45,89,.09)}
+.page-apply-now .apply-check-grid article span{color:var(--apply-coral);font-size:43px}
+.page-apply-now .apply-check-grid h3{font-size:28px}
+.page-apply-now .apply-check-grid p{font-size:13px;line-height:1.65}
+.page-apply-now .apply-school-section{background:linear-gradient(180deg,#f0f4fa 0%,#f9fafc 100%);scroll-margin-top:90px}
+.page-apply-now .apply-school-grid{gap:20px}
+.page-apply-now .apply-school-card{border:1px solid #dce4f0;border-radius:20px;overflow:hidden;box-shadow:0 15px 36px rgba(9,29,70,.07);transition:transform .35s ease,box-shadow .35s ease}
+.page-apply-now .apply-school-card:hover{transform:translateY(-7px);box-shadow:0 28px 54px rgba(9,29,70,.14)}
+.page-apply-now .apply-school-card.is-selected{outline:3px solid var(--apply-coral);outline-offset:3px}
+.page-apply-now .apply-school-card.is-selected:before{border-radius:100px;background:var(--apply-coral);font-size:10px}
+.page-apply-now .apply-school-image{position:relative;overflow:hidden;isolation:isolate;background:#dce6f3}
+.page-apply-now .apply-school-image img{width:100%;height:235px;object-fit:cover;transition:transform .8s cubic-bezier(.22,1,.36,1)}
+.page-apply-now .apply-school-card:hover .apply-school-image img{transform:scale(1.065)}
+.page-apply-now .apply-school-image:after{position:absolute;z-index:1;content:"";inset:55% 0 0;background:linear-gradient(transparent,rgba(5,23,55,.72))}
+.page-apply-now .apply-school-image span{position:absolute;bottom:18px;left:20px;z-index:2;color:#fff;font-size:13px;font-weight:800;letter-spacing:.04em}
+.page-apply-now .apply-school-body{padding:28px 25px 29px}
+.page-apply-now .apply-school-body h3{font-size:clamp(27px,2.4vw,34px);line-height:1.08;min-height:75px;color:#0a285f}
+.page-apply-now .apply-school-body small{color:#526584;font-size:10px}
+.page-apply-now .apply-school-body p{font-size:13px;line-height:1.55}
+.page-apply-now .application-note{color:#4f647f}
+.page-apply-now .apply-school-actions{align-items:flex-start;flex-direction:column;gap:13px}
+.page-apply-now .apply-school-actions .btn{width:100%;min-height:49px;border-radius:100px;justify-content:space-between;padding:12px 19px;white-space:normal;text-align:left}
+.page-apply-now .apply-school-actions .btn:hover{background:#154181;box-shadow:0 12px 24px rgba(11,38,92,.18)}
+.page-apply-now .apply-school-actions .text-link{font-size:12px;line-height:1.5;text-decoration-thickness:1px;text-underline-offset:3px}
+.page-apply-now .official-note{border-radius:12px;border:1px solid #f6d5ad;background:#fffaf0;font-size:13px;padding:22px 25px}
+.page-apply-now .apply-help-grid article{border-radius:19px;padding:clamp(30px,3vw,48px)}
+.page-apply-now .apply-help-grid article:first-child{background:radial-gradient(circle at 100% 0%,#225397,#071f4f 70%)}
+.page-apply-now .apply-help-grid h2{font-size:clamp(31px,3vw,45px);line-height:1.04}
+.page-apply-now .apply-help-grid p{font-size:14px;line-height:1.7}
+.page-apply-now a:focus-visible{outline:3px solid #f5a06b;outline-offset:4px}
+@media(min-width:1000px) and (prefers-reduced-motion:no-preference){
+  .page-apply-now .apply-visual-1{animation:apply-float-one 7s ease-in-out infinite alternate}
+  .page-apply-now .apply-visual-2{animation:apply-float-two 8s ease-in-out infinite alternate}
+  .page-apply-now .apply-visual-3{animation:apply-float-three 9s ease-in-out infinite alternate}
+  @keyframes apply-float-one{from{transform:translateY(28px)}to{transform:translateY(17px)}}
+  @keyframes apply-float-two{from{transform:translateY(-9px)}to{transform:translateY(2px)}}
+  @keyframes apply-float-three{from{transform:translateY(2px)}to{transform:translateY(-8px)}}
+}
+@media(prefers-reduced-motion:no-preference){
+  .apply-motion-ready .page-apply-now [data-apply-reveal]{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s cubic-bezier(.22,1,.36,1)}
+  .apply-motion-ready .page-apply-now [data-apply-reveal].is-visible{opacity:1;transform:translateY(0)}
+  .apply-motion-ready .page-apply-now .apply-school-card[data-apply-reveal].is-visible:hover{transform:translateY(-7px)}
+}
+@media(max-width:1100px){
+  .page-apply-now .apply-page-hero .journey-hero-grid{grid-template-columns:1fr;gap:44px}
+  .page-apply-now .apply-page-hero{padding:70px 0 84px}
+  .page-apply-now .apply-page-hero h1{max-width:880px}
+  .page-apply-now .apply-hero-art{max-width:870px;width:100%;margin:0 auto}
+  .page-apply-now .apply-school-body h3{min-height:0}
+}
+@media(max-width:760px){
+  .page-apply-now .apply-page-hero{padding:44px 0 50px}
+  .page-apply-now .apply-page-hero h1{font-size:clamp(55px,12vw,72px);margin:20px 0 22px}
+  .page-apply-now .apply-page-hero .hero-actions{display:grid;grid-template-columns:1fr;gap:12px}
+  .page-apply-now .apply-page-hero .hero-actions .btn{width:100%}
+  .page-apply-now .apply-hero-art{min-height:315px;grid-template-rows:160px 135px;gap:9px;padding:0}
+  .page-apply-now .apply-visual{border-radius:13px}
+  .page-apply-now .apply-visual-1,.page-apply-now .apply-visual-2,.page-apply-now .apply-visual-3{transform:none}
+  .page-apply-now .apply-visual figcaption{inset:auto 9px 10px;font-size:10px}
+  .page-apply-now .apply-art-stamp{width:98px;height:98px;left:-10px;top:39%;box-shadow:0 8px 24px rgba(0,0,0,.12)}
+  .page-apply-now .apply-art-stamp span{font-size:7px}
+  .page-apply-now .apply-art-stamp strong{font-size:18px;margin-top:6px}
+  .page-apply-now .apply-journey-steps{align-items:flex-start;gap:10px;min-height:0;padding-top:20px;padding-bottom:20px;flex-wrap:wrap}
+  .page-apply-now .apply-journey-steps span{font-size:11px;flex:1 1 100%;gap:12px}
+  .page-apply-now .apply-journey-steps i{display:none}
+  .page-apply-now .apply-school-image img{height:225px}
+  .page-apply-now .apply-school-body{padding:24px}
+  .page-apply-now .apply-check-grid article{min-height:auto;padding:25px}
+  .page-apply-now .apply-help-grid article{padding:30px 25px}
+}
+@media(prefers-reduced-motion:reduce){
+  .page-apply-now *, .page-apply-now *::before, .page-apply-now *::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+}
