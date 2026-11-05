@@ -1,6 +1,12 @@
 {
   "wagholi": [
     {
+      "image": "/assets/images/campuses/campus-wagholi-actual.webp",
+      "alt": "The Lexicon International School, Wagholi main entrance",
+      "caption": "School entrance",
+      "approved": true
+    },
+    {
       "image": "/assets/images/campuses/campus-wagholi.webp",
       "alt": "Wagholi campus overview",
       "caption": "Campus overview",
@@ -9,6 +15,12 @@
   ],
   "kalyani-nagar": [
     {
+      "image": "/assets/images/campuses/campus-kalyani-actual.webp",
+      "alt": "The Lexicon International School, Kalyani Nagar main entrance",
+      "caption": "School entrance",
+      "approved": true
+    },
+    {
       "image": "/assets/images/campuses/campus-kalyani.webp",
       "alt": "Kalyani Nagar campus overview",
       "caption": "Campus overview",
@@ -16,6 +28,12 @@
     }
   ],
   "hadapsar": [
+    {
+      "image": "/assets/images/campuses/campus-hadapsar-actual.webp",
+      "alt": "The Lexicon School, Hadapsar main entrance",
+      "caption": "School entrance",
+      "approved": true
+    },
     {
       "image": "/assets/images/campuses/campus-hadapsar.webp",
       "alt": "Hadapsar campus overview",
