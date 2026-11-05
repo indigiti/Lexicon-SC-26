@@ -49,7 +49,7 @@ $academicFmt = static function(string $date,string $format='d M'): string { try 
 </div></section>
 
 <nav class="section-jump school-jump" aria-label="School sections"><div class="container">
-  <a href="#overview">Overview</a><a href="#learning">Learning</a><a href="#campus">Campus</a><a href="#transport">Transport</a><a href="#lex360">LEX360</a><a href="#admissions">Admissions</a><a href="#visit">Visit</a>
+  <a href="#overview">Overview</a><a href="#learning">Learning</a><a href="#campus">Campus</a><a href="#gallery">Gallery</a><a href="#transport">Transport</a><a href="#lex360">LEX360</a><a href="#admissions">Admissions</a><a href="#visit">Visit</a>
 </div></nav>
 
 <section class="school-overview" id="overview"><div class="container school-overview-grid">
