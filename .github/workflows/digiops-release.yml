@@ -1,0 +1,91 @@
+name: Lexicon DigiOps Release
+
+on:
+  push:
+    branches:
+      - main
+      - 'staging/**'
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: lexicon-digiops-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  release:
+    name: Validate and package PHP split-webroot release
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.4'
+          coverage: none
+      - name: Validate PHP source syntax
+        shell: bash
+        run: |
+          set -euo pipefail
+          find app public tools -type f -name '*.php' -print0 | xargs -0 -n1 php -l
+          php -l index.php
+      - name: Validate content, assets and build parity
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          paths=list(Path('content').glob('*.json'))
+          assert paths, 'Content directory is missing'
+          for path in paths:
+              json.loads(path.read_text(encoding='utf-8'))
+          schools=json.loads(Path('content/schools.json').read_text(encoding='utf-8'))
+          assert len(schools)==3
+          assert {s['slug'] for s in schools}=={'wagholi','kalyani-nagar','hadapsar'}
+          PY
+          node --check public/build/assets/app.js
+          cmp build/assets/app.css public/build/assets/app.css
+          cmp build/assets/app.js public/build/assets/app.js
+      - name: Prepare DigiOps release
+        run: |
+          php tools/package-digiops-release.php
+          php tools/check-digiops-release.php
+          php -l release/public/index.php
+      - name: Smoke test Cloudways split-webroot install
+        shell: bash
+        run: |
+          set -euo pipefail
+          tmp=$(mktemp -d)
+          trap 'kill "${server_pid:-}" 2>/dev/null || true; rm -rf "$tmp"' EXIT
+          mkdir -p "$tmp/public_html/lexiconschoolgroup" "$tmp/private_html/lexiconschoolgroup"
+          cp -a release/public/. "$tmp/public_html/lexiconschoolgroup/"
+          cp -a release/private/. "$tmp/private_html/lexiconschoolgroup/"
+          APP_BASE_PATH=/lexiconschoolgroup php -S 127.0.0.1:8765 \
+            -t "$tmp/public_html" "$tmp/public_html/lexiconschoolgroup/router.php" > "$tmp/php.log" 2>&1 &
+          server_pid=$!
+          ready=0
+          for i in $(seq 1 20); do
+            if curl -fsS http://127.0.0.1:8765/lexiconschoolgroup/api/health > "$tmp/health.json"; then ready=1; break; fi
+            sleep 1
+          done
+          test "$ready" -eq 1 || { cat "$tmp/php.log"; exit 1; }
+          grep -q '"ok":true' "$tmp/health.json"
+          for route in / /admissions /about /schools/wagholi /parent-portal /enquire /achievements; do
+            curl -fsS "http://127.0.0.1:8765/lexiconschoolgroup${route}" > "$tmp/page.html"
+            grep -q '</html>' "$tmp/page.html"
+          done
+          curl -fsS http://127.0.0.1:8765/lexiconschoolgroup/build/assets/app.js > /dev/null
+          echo "PHP staging path and split-root smoke test passed"
+      - name: Upload DigiOps deployable artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: digiops-release
+          path: release/
+          include-hidden-files: true
+          if-no-files-found: error
+          retention-days: 30
