@@ -1,0 +1,166 @@
+{
+  "/": {
+    "title": "The Lexicon Schools — A stronger tomorrow for every child",
+    "description": "The Lexicon Schools in Pune: three CBSE school communities, LEX360 learning and admissions."
+  },
+  "/lex360": {
+    "title": "LEX360 — The Lexicon Difference",
+    "description": "Discover LEX360: LexiCore, LexiFit, LexiExpression, LexiThrive, LexiInnovate, LexiConnect and LexiTrack."
+  },
+  "/admissions": {
+    "title": "Admissions — The Lexicon Schools",
+    "description": "Admissions overview, eligibility, process and school choices across The Lexicon Schools."
+  },
+  "/about": {
+    "title": "About Us — The Lexicon Schools",
+    "description": "Our story, philosophy, leadership, schools, educators, governance and affiliations."
+  },
+  "/achievements": {
+    "title": "Achievements & Recognition — The Lexicon Schools",
+    "description": "Awards, student achievements, distinguished milestones and media recognition."
+  },
+  "/alumni": {
+    "title": "Alumni — The Lexicon Schools",
+    "description": "Reconnect with The Lexicon Schools, share your journey and join the alumni network across Wagholi, Kalyani Nagar and Hadapsar."
+  },
+  "/careers": {
+    "title": "Careers — The Lexicon Schools",
+    "description": "Explore teaching, student-support and school operations opportunities across The Lexicon Schools in Pune."
+  },
+  "/contact": {
+    "title": "Contact — The Lexicon Schools",
+    "description": "Enquire, book a campus visit and find contact details and maps for The Lexicon Schools in Wagholi, Kalyani Nagar and Hadapsar."
+  },
+  "/legal/privacy": {
+    "title": "Privacy Policy — The Lexicon Schools",
+    "description": "How The Lexicon Schools website handles enquiry information, technical data and third-party services."
+  },
+  "/legal/terms": {
+    "title": "Terms & Conditions — The Lexicon Schools",
+    "description": "Terms governing use of The Lexicon Schools group website and its information and services."
+  },
+  "/legal/disclosure": {
+    "title": "Mandatory Public Disclosure — The Lexicon Schools",
+    "description": "Campus-wise access to mandatory public disclosure and compliance information for The Lexicon Schools."
+  },
+  "/schools/wagholi": {
+    "title": "Wagholi — The Lexicon International School",
+    "description": "Explore The Lexicon International School, Wagholi: CBSE learning, LEX360, campus facilities, admissions, contact details and visit information."
+  },
+  "/schools/kalyani-nagar": {
+    "title": "Kalyani Nagar — The Lexicon International School",
+    "description": "Explore The Lexicon International School, Kalyani Nagar: CBSE learning, facilities, LEX360, admissions and campus information."
+  },
+  "/schools/hadapsar": {
+    "title": "Hadapsar — The Lexicon School",
+    "description": "Explore The Lexicon School, Hadapsar: CBSE learning, campus facilities, LEX360, admissions and visit information."
+  },
+  "/campus-tour": {
+    "title": "Campus Tour — The Lexicon Schools",
+    "description": "Plan a campus tour across The Lexicon Schools in Wagholi, Kalyani Nagar and Hadapsar, Pune."
+  },
+  "/virtual-tour": {
+    "title": "Virtual Tour — The Lexicon Schools",
+    "description": "Explore The Lexicon Schools virtually, compare campuses and open interactive map experiences before planning a visit."
+  },
+  "/apply-now": {
+    "title": "Apply Now — The Lexicon Schools",
+    "description": "Choose a Lexicon school, review application essentials and continue to the official campus admission application."
+  },
+  "/enquire": {
+    "title": "Enquire — The Lexicon Schools",
+    "description": "Send an admissions or school enquiry to The Lexicon Schools and choose Wagholi, Kalyani Nagar or Hadapsar."
+  },
+  "/book-a-visit": {
+    "title": "Book a Visit — The Lexicon Schools",
+    "description": "Request a campus visit at The Lexicon Schools in Wagholi, Kalyani Nagar or Hadapsar."
+  },
+  "/schools/wagholi/admissions": {
+    "title": "Wagholi Admissions 2026–27 — The Lexicon International School",
+    "description": "Wagholi admissions 2026–27: age eligibility, application guidelines, minority preference, general selection process, documents and Class XI pathway."
+  },
+  "/schools/wagholi/admissions/class-xi": {
+    "title": "Class XI Admissions — The Lexicon International School, Wagholi",
+    "description": "Class XI admission process, Science, Commerce and Humanities subject combinations, counselling, aptitude test and document requirements at Wagholi."
+  },
+  "/schools/kalyani-nagar/admissions": {
+    "title": "Kalyani Nagar Admissions 2026–27 — The Lexicon International School",
+    "description": "Kalyani Nagar admissions 2026–27: current fee structure, application guidance, documents, Class XI Commerce / Humanities pathway and campus policies."
+  },
+  "/schools/kalyani-nagar/admissions/class-xi": {
+    "title": "Class XI Admissions 2026–27 — The Lexicon International School, Kalyani Nagar",
+    "description": "Class XI Commerce and Humanities admissions, Board-result criteria, fees, subject choices, counselling, aptitude test and documents at Kalyani Nagar."
+  },
+  "/schools/hadapsar/admissions": {
+    "title": "Hadapsar Admissions 2026–27 — The Lexicon School",
+    "description": "Hadapsar admissions 2026–27: new-admission fee structure, application guidance, documents, Class XI pathway and campus policies."
+  },
+  "/schools/hadapsar/admissions/class-xi": {
+    "title": "Class XI Admissions 2026–27 — The Lexicon School, Hadapsar",
+    "description": "Class XI Science and Commerce admissions, Board-result criteria, fees, Integrated Science option, subjects, counselling, aptitude test and documents at Hadapsar."
+  },
+  "/transport": {
+    "title": "Transport Routes 2026–27 — The Lexicon Schools",
+    "description": "Search current sanitized school transport routes and stops across Wagholi, Kalyani Nagar and Hadapsar."
+  },
+  "/schools/wagholi/transport": {
+    "title": "Wagholi Transport Routes 2026–27 — The Lexicon Schools",
+    "description": "Search current 2026–27 transport routes and stops for the Wagholi campus."
+  },
+  "/schools/kalyani-nagar/transport": {
+    "title": "Kalyani Nagar Transport Routes 2026–27 — The Lexicon Schools",
+    "description": "Search current 2026–27 transport routes and stops for the Kalyani Nagar campus."
+  },
+  "/schools/hadapsar/transport": {
+    "title": "Hadapsar Transport Routes 2026–27 — The Lexicon Schools",
+    "description": "Search current 2026–27 transport routes and stops for the Hadapsar campus."
+  },
+  "/schools/wagholi/academics": {
+    "title": "Academics 2026–27 — Wagholi — The Lexicon International School",
+    "description": "Academic planner, assessment methodology, holidays and key school-year dates for the 2026–27 session."
+  },
+  "/schools/wagholi/academics/calendar": {
+    "title": "Academic Planner 2026–27 — Wagholi — The Lexicon International School",
+    "description": "Interactive academic calendar with assessments, PTMs, school openings, events and breaks."
+  },
+  "/schools/wagholi/academics/assessment": {
+    "title": "Assessment & Evaluation — Wagholi — The Lexicon International School",
+    "description": "Campus assessment pattern, grading approach, internal assessment, portfolio and subject enrichment."
+  },
+  "/schools/wagholi/academics/holidays": {
+    "title": "Holiday Calendar 2026–27 — Wagholi — The Lexicon International School",
+    "description": "Campus holiday dates, major breaks and source notes for the 2026–27 academic year."
+  },
+  "/schools/kalyani-nagar/academics": {
+    "title": "Academics 2026–27 — Kalyani Nagar — The Lexicon International School",
+    "description": "Academic planner, assessment methodology, holidays and key school-year dates for the 2026–27 session."
+  },
+  "/schools/kalyani-nagar/academics/calendar": {
+    "title": "Academic Planner 2026–27 — Kalyani Nagar — The Lexicon International School",
+    "description": "Interactive academic calendar with assessments, PTMs, school openings, events and breaks."
+  },
+  "/schools/kalyani-nagar/academics/assessment": {
+    "title": "Assessment & Evaluation — Kalyani Nagar — The Lexicon International School",
+    "description": "Campus assessment pattern, grading approach, internal assessment, portfolio and subject enrichment."
+  },
+  "/schools/kalyani-nagar/academics/holidays": {
+    "title": "Holiday Calendar 2026–27 — Kalyani Nagar — The Lexicon International School",
+    "description": "Campus holiday dates, major breaks and source notes for the 2026–27 academic year."
+  },
+  "/schools/hadapsar/academics": {
+    "title": "Academics 2026–27 — Hadapsar — The Lexicon School",
+    "description": "Academic planner, assessment methodology, holidays and key school-year dates for the 2026–27 session."
+  },
+  "/schools/hadapsar/academics/calendar": {
+    "title": "Academic Planner 2026–27 — Hadapsar — The Lexicon School",
+    "description": "Interactive academic calendar with assessments, PTMs, school openings, events and breaks."
+  },
+  "/schools/hadapsar/academics/assessment": {
+    "title": "Assessment & Evaluation — Hadapsar — The Lexicon School",
+    "description": "Campus assessment pattern, grading approach, internal assessment, portfolio and subject enrichment."
+  },
+  "/schools/hadapsar/academics/holidays": {
+    "title": "Holiday Calendar 2026–27 — Hadapsar — The Lexicon School",
+    "description": "Campus holiday dates, major breaks and source notes for the 2026–27 academic year."
+  }
+}

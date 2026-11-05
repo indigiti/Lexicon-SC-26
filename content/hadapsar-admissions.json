@@ -1,0 +1,525 @@
+{
+  "campus_slug": "hadapsar",
+  "campus": "The Lexicon School, Hadapsar",
+  "short": "Hadapsar",
+  "academic_year": "2026–27",
+  "logo": "/assets/images/brand/campuses/hadapsar-light.png",
+  "hero": {
+    "eyebrow": "Hadapsar Admissions · 2026–27",
+    "title": "Understand Hadapsar fees, admission essentials and the current Class XI pathway.",
+    "intro": "Review the supplied 2026–27 new-admission fee structure, prepare your application information, and explore the current Class XI Science / Commerce process including the Integrated Science option."
+  },
+  "essentials": [
+    {
+      "label": "Academic Year",
+      "value": "2026–27",
+      "text": "Current new-admission fee structure supplied for Nursery through Class XII."
+    },
+    {
+      "label": "Board",
+      "value": "CBSE",
+      "text": "Nursery to Class XII at The Lexicon School, Hadapsar."
+    },
+    {
+      "label": "Class XI",
+      "value": "Science + Commerce",
+      "text": "Counselling and aptitude-test pathway with 2026–27 annexure."
+    },
+    {
+      "label": "Integrated Science",
+      "value": "Available",
+      "text": "Separate Unacademy integrated option is described in the current Class XI annexure."
+    }
+  ],
+  "application_guidance": [
+    {
+      "step": "01",
+      "title": "Choose the entry class",
+      "text": "Confirm the class and current seat availability with the Hadapsar campus."
+    },
+    {
+      "step": "02",
+      "title": "Use accurate student records",
+      "text": "Complete application details so that identity, date-of-birth and previous-school records remain consistent."
+    },
+    {
+      "step": "03",
+      "title": "Continue through the official application route",
+      "text": "Use the campus application system and preserve the generated application reference and payment records."
+    },
+    {
+      "step": "04",
+      "title": "Prepare verification documents",
+      "text": "Keep identity, residence, previous-school and applicable guardianship / category documents ready."
+    },
+    {
+      "step": "05",
+      "title": "Attend interaction where required",
+      "text": "Class XI has a defined counselling and aptitude-test stage; other classes should follow the campus instructions issued for that admission."
+    },
+    {
+      "step": "06",
+      "title": "Complete confirmation formalities",
+      "text": "Confirm admission and fees only against the current school communication and published schedule."
+    }
+  ],
+  "fees": {
+    "intro": "The 2026–27 figures below are reproduced from the supplied Hadapsar new-admission fee schedule. Class XI is not included in that general table and is therefore shown separately on the Class XI page from the current annexure.",
+    "admission_notes": [
+      "The yearly table below already includes the applicable new-admission fee.",
+      "The first instalment includes the admission fee plus the first half of Term and Tuition fees.",
+      "The second instalment contains the balance Term and Tuition fees."
+    ],
+    "tables": [
+      {
+        "title": "Yearly Fee · New Admission · 2026–27",
+        "columns": [
+          "Nursery",
+          "LKG",
+          "UKG",
+          "Class I",
+          "Class II",
+          "Class III",
+          "Class IV",
+          "Class V",
+          "Class VI",
+          "Class VII",
+          "Class VIII",
+          "Class IX",
+          "Class X",
+          "Class XII Science",
+          "Class XII Commerce & Arts"
+        ],
+        "rows": [
+          [
+            "Admission Fee",
+            "10,000",
+            "10,000",
+            "10,000",
+            "20,000",
+            "20,000",
+            "20,000",
+            "20,000",
+            "20,000",
+            "20,000",
+            "20,000",
+            "20,000",
+            "20,000",
+            "30,000",
+            "30,000",
+            "30,000"
+          ],
+          [
+            "Term Fee",
+            "9,857",
+            "10,570",
+            "9,857",
+            "9,016",
+            "11,336",
+            "11,336",
+            "9,857",
+            "9,843",
+            "9,843",
+            "9,843",
+            "9,843",
+            "9,843",
+            "9,843",
+            "12,865",
+            "11,619"
+          ],
+          [
+            "Tuition Fee",
+            "59,143",
+            "63,424",
+            "59,143",
+            "54,097",
+            "68,014",
+            "68,014",
+            "59,143",
+            "59,057",
+            "59,057",
+            "59,057",
+            "59,057",
+            "59,057",
+            "59,057",
+            "77,194",
+            "69,715"
+          ],
+          [
+            "Total",
+            "79,000",
+            "83,994",
+            "79,000",
+            "83,113",
+            "99,350",
+            "99,350",
+            "89,000",
+            "88,900",
+            "88,900",
+            "88,900",
+            "88,900",
+            "88,900",
+            "98,900",
+            "1,20,059",
+            "1,11,334"
+          ]
+        ]
+      },
+      {
+        "title": "1st Instalment · At the Time of Admission",
+        "columns": [
+          "Nursery",
+          "LKG",
+          "UKG",
+          "Class I",
+          "Class II",
+          "Class III",
+          "Class IV",
+          "Class V",
+          "Class VI",
+          "Class VII",
+          "Class VIII",
+          "Class IX",
+          "Class X",
+          "Class XII Science",
+          "Class XII Commerce & Arts"
+        ],
+        "rows": [
+          [
+            "Admission Fee",
+            "10,000",
+            "10,000",
+            "10,000",
+            "20,000",
+            "20,000",
+            "20,000",
+            "20,000",
+            "20,000",
+            "20,000",
+            "20,000",
+            "20,000",
+            "20,000",
+            "30,000",
+            "30,000",
+            "30,000"
+          ],
+          [
+            "Term Fee",
+            "4,928",
+            "5,285",
+            "4,928",
+            "4,508",
+            "5,668",
+            "5,668",
+            "4,928",
+            "4,921",
+            "4,921",
+            "4,921",
+            "4,921",
+            "4,921",
+            "4,921",
+            "6,433",
+            "5,810"
+          ],
+          [
+            "Tuition Fee",
+            "29,572",
+            "31,712",
+            "29,572",
+            "27,049",
+            "34,007",
+            "34,007",
+            "29,572",
+            "29,529",
+            "29,529",
+            "29,529",
+            "29,529",
+            "29,529",
+            "29,529",
+            "38,597",
+            "34,858"
+          ],
+          [
+            "Total",
+            "44,500",
+            "46,997",
+            "44,500",
+            "51,557",
+            "59,675",
+            "59,675",
+            "54,500",
+            "54,450",
+            "54,450",
+            "54,450",
+            "54,450",
+            "54,450",
+            "64,450",
+            "75,030",
+            "70,668"
+          ]
+        ]
+      },
+      {
+        "title": "2nd Instalment",
+        "columns": [
+          "Nursery",
+          "LKG",
+          "UKG",
+          "Class I",
+          "Class II",
+          "Class III",
+          "Class IV",
+          "Class V",
+          "Class VI",
+          "Class VII",
+          "Class VIII",
+          "Class IX",
+          "Class X",
+          "Class XII Science",
+          "Class XII Commerce & Arts"
+        ],
+        "rows": [
+          [
+            "Term Fee",
+            "4,929",
+            "5,285",
+            "4,929",
+            "4,508",
+            "5,668",
+            "5,668",
+            "4,929",
+            "4,922",
+            "4,922",
+            "4,922",
+            "4,922",
+            "4,922",
+            "4,922",
+            "6,432",
+            "5,809"
+          ],
+          [
+            "Tuition Fee",
+            "29,571",
+            "31,712",
+            "29,571",
+            "27,048",
+            "34,007",
+            "34,007",
+            "29,571",
+            "29,528",
+            "29,528",
+            "29,528",
+            "29,528",
+            "29,528",
+            "29,528",
+            "38,597",
+            "34,857"
+          ],
+          [
+            "Total",
+            "34,500",
+            "36,997",
+            "34,500",
+            "31,556",
+            "39,675",
+            "39,675",
+            "34,500",
+            "34,450",
+            "34,450",
+            "34,450",
+            "34,450",
+            "34,450",
+            "34,450",
+            "45,029",
+            "40,666"
+          ]
+        ]
+      }
+    ]
+  },
+  "documents": [
+    "Birth Certificate / age proof",
+    "Student and parent / legal guardian identity documents as requested",
+    "Current and permanent residence proof",
+    "Previous-school records / Transfer Certificate where applicable",
+    "Latest academic report / bonafide documents where applicable",
+    "Caste / minority / legal guardianship documents where applicable",
+    "Recent passport-size photographs",
+    "Any additional document requested by the Hadapsar admissions team"
+  ],
+  "policies": [
+    {
+      "title": "New-admission fees",
+      "text": "The general Hadapsar table on this page is specifically labelled for new admissions for 2026–27. Current school billing and official campus communication prevail if any figure is revised."
+    },
+    {
+      "title": "Class XI is separate",
+      "text": "Class XI Science and Commerce are governed by the current Senior Secondary annexure and are displayed on the dedicated Class XI page rather than mixed into the general Nursery–XII table."
+    },
+    {
+      "title": "Integrated Science",
+      "text": "The current Class XI annexure describes an Integrated Science Batch with Unacademy. The Unacademy fee is separate, payable directly to Unacademy, and requires completion of the school Class XI admission process."
+    },
+    {
+      "title": "Availability and confirmation",
+      "text": "Fees and programme publication do not guarantee a seat. Admission remains subject to eligibility, document verification, campus process and formal confirmation."
+    }
+  ],
+  "class_xi": {
+    "intro": "Class XI 2026–27 at Hadapsar follows an online application, counselling and aptitude-test process before provisional admission. The campus currently offers Science and Commerce, with a separate Integrated Science option described in the annexure.",
+    "process": [
+      {
+        "step": "01",
+        "title": "Online application",
+        "text": "Fill the online form using the same correct details used for Class X Board registration."
+      },
+      {
+        "step": "02",
+        "title": "Counselling + aptitude test",
+        "text": "Visit the school with the printed application, signed annexure and required documents for the scheduled counselling session followed by the aptitude test."
+      },
+      {
+        "step": "03",
+        "title": "Provisional admission",
+        "text": "Provisional admission is based on interaction and aptitude-test performance, then reviewed after Board Examination results."
+      }
+    ],
+    "cutoffs": [
+      {
+        "stream": "Science",
+        "value": "75%",
+        "note": "Board-result cut-off published in the 2026–27 Class XI annexure."
+      },
+      {
+        "stream": "Commerce",
+        "value": "60%",
+        "note": "Board-result cut-off published in the 2026–27 Class XI annexure."
+      }
+    ],
+    "refund": [
+      "If the student does not meet the applicable cut-off and the parent cancels: 100% refund within 10 calendar days of Board results, 50% within 15 calendar days, 25% within one calendar month, and no refund thereafter.",
+      "No refund applies where the student meets the criteria but the parent withdraws for another reason.",
+      "Applicable refunds are stated to be processed within 45 days by cheque.",
+      "The application form fee is non-refundable."
+    ],
+    "fee_summary": [
+      {
+        "label": "Class XI · Science",
+        "admission": "₹20,000",
+        "term": "₹12,865",
+        "tuition": "₹77,194",
+        "total": "₹1,10,059"
+      },
+      {
+        "label": "Class XI · Commerce",
+        "admission": "₹20,000",
+        "term": "₹11,619",
+        "tuition": "₹69,715",
+        "total": "₹1,01,334"
+      },
+      {
+        "label": "Class XII · Science",
+        "admission": "₹0*",
+        "term": "₹12,865",
+        "tuition": "₹77,194",
+        "total": "₹90,059"
+      },
+      {
+        "label": "Class XII · Commerce",
+        "admission": "₹0*",
+        "term": "₹11,619",
+        "tuition": "₹69,715",
+        "total": "₹81,334"
+      }
+    ],
+    "fee_note": "The annexure states a one-time ₹30,000 admission fee for new admissions directly into Class XII. Early-enrolment incentives dated 31 January 2026 are not displayed as an active offer because that date has passed.",
+    "integrated": {
+      "title": "Integrated Science Batch · Unacademy",
+      "amount": "₹1,80,000",
+      "text": "The annexure states a discounted Unacademy fee of ₹1,80,000 taken together for Classes XI and XII. Students must first complete the Hadapsar Class XI admission process. The Unacademy amount is paid directly to Unacademy, and interested families are instructed to consult the Unacademy representative available on campus."
+    },
+    "streams": [
+      {
+        "name": "Science",
+        "blocks": [
+          {
+            "label": "Compulsory Subjects · 3",
+            "subjects": [
+              "English",
+              "Physics",
+              "Chemistry"
+            ]
+          },
+          {
+            "label": "Choose any 2 as 4th & 5th subject",
+            "subjects": [
+              "Biology",
+              "Mathematics",
+              "Computer Science",
+              "Informatics Practices",
+              "Information Technology",
+              "Physical Education",
+              "Marketing",
+              "Entrepreneurship",
+              "Artificial Intelligence",
+              "Financial Markets Management"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Commerce",
+        "blocks": [
+          {
+            "label": "Compulsory Subjects · 2",
+            "subjects": [
+              "English",
+              "Business Studies"
+            ]
+          },
+          {
+            "label": "Choose any 3 as 3rd, 4th & 5th subject",
+            "subjects": [
+              "Accountancy",
+              "Economics",
+              "Mathematics",
+              "Computer Science",
+              "Informatics Practices",
+              "Information Technology",
+              "Physical Education",
+              "Marketing",
+              "Entrepreneurship",
+              "Artificial Intelligence",
+              "Financial Markets Management",
+              "Mass Media Studies"
+            ]
+          }
+        ]
+      }
+    ],
+    "documents": [
+      "Birth Certificate / age proof",
+      "Student and parent / legal guardian Aadhaar copies",
+      "Current residence proof",
+      "Permanent residence proof, if different",
+      "Bonafide Certificate from the current school for non-Lexiconites",
+      "Class IX Report Card and Class X Mid-Term Report Card for non-Lexiconites",
+      "Caste Certificate, where applicable",
+      "Legal Guardianship Certificate, where applicable",
+      "Minority undertaking, where applicable",
+      "Three recent passport-size photographs"
+    ],
+    "confirmation_docs": [
+      "Final Board Examination Mark Sheet",
+      "Original Transfer Certificate",
+      "Character Certificate for non-Lexiconites"
+    ],
+    "important": [
+      "Direct admission in Class XII is subject to the applicable CBSE Board-transfer requirements.",
+      "Foreign nationals must submit the applicable Visa / Residence Permit / embassy documentation.",
+      "The annexure states that 75% attendance is mandatory once school starts, as per CBSE norms.",
+      "Families should separately budget for uniform, transport, trips, activities, co-curricular material and public / Board examination charges where applicable.",
+      "Submission of an application form does not guarantee admission."
+    ]
+  }
+}

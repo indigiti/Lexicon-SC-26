@@ -1,0 +1,19 @@
+# Lexicon Schools — portable subdirectory deployment
+# Upload the complete release into /v/ and browse https://host/v/.
+Options -Indexes -MultiViews
+DirectoryIndex index.php
+RewriteEngine On
+
+# Protect all non-public project internals before the physical-file pass.
+RewriteRule ^(?:app|content|frontend|services|storage|reference|audit)(?:/|$) - [F,L,NC]
+RewriteRule ^(?:public)(?:/|$) - [F,L,NC]
+RewriteRule ^(?:README\.md|CHANGELOG\.md|ARCHITECTURE\.md|DEPLOY-SUBDIRECTORY\.md|\.gitignore)(?:$|/) - [F,L,NC]
+
+# Root-level assets/ and build/ are release mirrors so Nginx/CDN/static-file
+# layers can serve them directly without depending on an Apache rewrite.
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Clean application routes under whatever directory this release is placed in.
+RewriteRule ^ index.php [L,QSA]

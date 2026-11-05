@@ -1,0 +1,335 @@
+{
+  "wagholi": {
+    "slug": "wagholi",
+    "short": "Wagholi",
+    "name": "The Lexicon International School, Wagholi",
+    "eyebrow": "Wagholi · The Lexicon Schools",
+    "headline": "Where the Lexicon journey began.",
+    "intro": "A long-established CBSE school community on Pune–Nagar Road, combining academic depth with technology, experiential learning, co-curricular opportunity and the confidence to believe in yourself.",
+    "image": "/assets/images/campuses/campus-wagholi.webp",
+    "facts": [
+      {
+        "label": "Board",
+        "value": "CBSE"
+      },
+      {
+        "label": "Classes",
+        "value": "Nursery – Class XII"
+      },
+      {
+        "label": "Affiliation",
+        "value": "1130282"
+      },
+      {
+        "label": "Senior Secondary",
+        "value": "Science · Commerce · Humanities"
+      }
+    ],
+    "story_title": "A school community built to help children learn, grow and lead.",
+    "story": [
+      "The Wagholi campus is the original Lexicon school community in Pune and reflects the group philosophy of child-centric, progressive and global education. Learning is designed to move beyond textbooks through inquiry, collaboration, technology and real-world exposure.",
+      "The campus combines a strong academic programme with communication, arts, sport, coding, life skills and community engagement so that students can develop confidence alongside competence."
+    ],
+    "learning": [
+      {
+        "kicker": "Academic Foundation",
+        "title": "Student-centred CBSE learning",
+        "text": "Teaching follows CBSE guidelines with inquiry-based and interdisciplinary methods that build reading, writing, observation, problem solving, collaboration and communication."
+      },
+      {
+        "kicker": "Technology",
+        "title": "Coding and digital learning",
+        "text": "The school integrates digital tools, smart-board supported learning and age-appropriate coding, with Coding from Classes I–V and Scratch from Classes VI–VIII."
+      },
+      {
+        "kicker": "Beyond the Classroom",
+        "title": "Experiential learning",
+        "text": "Projects, activities, excursions, seminars and competitions are used to deepen understanding and help students apply classroom concepts in meaningful contexts."
+      },
+      {
+        "kicker": "Educators",
+        "title": "Continuous teacher development",
+        "text": "Teacher learning includes CBSE workshops plus additional Lexicon training focused on current pedagogy, quality assurance and professional growth."
+      }
+    ],
+    "facilities": [
+      {
+        "value": "3",
+        "label": "Science labs",
+        "detail": "Physics, Chemistry and Biology"
+      },
+      {
+        "value": "3",
+        "label": "ICT labs",
+        "detail": "Digital learning and technology"
+      },
+      {
+        "value": "ERP",
+        "label": "Parent communication",
+        "detail": "Progress, attendance and school updates"
+      },
+      {
+        "value": "RO",
+        "label": "Safe drinking water",
+        "detail": "Purified water and dispensers across floors"
+      },
+      {
+        "value": "Bus",
+        "label": "School transport",
+        "detail": "Fixed routes and stops, subject to availability"
+      },
+      {
+        "value": "Café",
+        "label": "Canteen facility",
+        "detail": "Available on campus"
+      }
+    ],
+    "experience_title": "Learn. Create. Move. Express.",
+    "experience_text": "The campus experience connects strongly with LEX360 — balancing academic foundations with fitness, communication, values, innovation, community connection and visible growth.",
+    "experience_cards": [
+      {
+        "image": "/assets/images/lex360/lex-lexicore-main.webp",
+        "title": "Strong foundations",
+        "text": "Literacy, numeracy, conceptual clarity and thinking skills."
+      },
+      {
+        "image": "/assets/images/lex360/lex-lexifit-main.webp",
+        "title": "Health & movement",
+        "text": "Physical education, sport, wellbeing and healthy routines."
+      },
+      {
+        "image": "/assets/images/lex360/lex-expression-main.webp",
+        "title": "Confidence & expression",
+        "text": "Music, dance, art, assemblies, speaking and performance."
+      }
+    ],
+    "voice": "Parents on the campus site consistently highlight the balance between academics and co-curricular opportunities, the confidence students gain through programmes such as C2B, and the support provided by teachers and school teams.",
+    "admission_title": "Admissions 2026–27, now explained step by step.",
+    "admission_text": "Use the Wagholi admissions guide for age and grade eligibility, online-application instructions, minority preference, the general selection process, documents and the separate Class XI pathway. Current fees, seats and operational dates remain subject to the official campus publication.",
+    "official_admission": "https://wagholi.lexiconedu.in/admission/",
+    "official_disclosure": "https://wagholi.lexiconedu.in/mandatory-disclosure/",
+    "official_site": "https://wagholi.lexiconedu.in/"
+  },
+  "kalyani-nagar": {
+    "slug": "kalyani-nagar",
+    "short": "Kalyani Nagar",
+    "name": "The Lexicon International School, Kalyani Nagar",
+    "eyebrow": "Kalyani Nagar · The Lexicon Schools",
+    "headline": "A future-ready school in the heart of Pune.",
+    "intro": "A CBSE school community where academic rigour, technology, values, wellbeing and experiential learning come together in a connected urban campus environment.",
+    "image": "/assets/images/campuses/campus-kalyani.webp",
+    "facts": [
+      {
+        "label": "Board",
+        "value": "CBSE"
+      },
+      {
+        "label": "Classes",
+        "value": "Nursery – Class XII"
+      },
+      {
+        "label": "Affiliation",
+        "value": "1130609"
+      },
+      {
+        "label": "UDISE",
+        "value": "27251500113"
+      }
+    ],
+    "story_title": "Learning designed around curiosity, confidence and whole-child growth.",
+    "story": [
+      "The Kalyani Nagar campus describes its approach as holistic and future-focused: strong academic planning supported by technology, experiential learning and opportunities that nurture creativity, character and confidence.",
+      "The school environment is designed to support different stages of development with child-friendly spaces, digitally enabled classrooms and strong communication between school and families."
+    ],
+    "learning": [
+      {
+        "kicker": "Academic Excellence",
+        "title": "Holistic CBSE learning",
+        "text": "The campus combines curriculum goals with creativity, skills and future-readiness so students are prepared to think, communicate and respond to changing contexts."
+      },
+      {
+        "kicker": "Technology",
+        "title": "Smart classrooms & ERP",
+        "text": "Digitally enabled classrooms and smart boards support multisensory learning, while ERP tools improve transparency around progress, attendance, assignments and school communication."
+      },
+      {
+        "kicker": "Student Experience",
+        "title": "Experiential education",
+        "text": "Student-centric learning, innovation in pedagogy and real-world experiences are central to the campus philosophy and leadership approach."
+      },
+      {
+        "kicker": "Wellbeing",
+        "title": "Safe, age-appropriate environment",
+        "text": "Child-friendly furniture, structured transport safety systems and a learning culture focused on emotional intelligence, resilience and social responsibility support everyday school life."
+      }
+    ],
+    "facilities": [
+      {
+        "value": "Smart",
+        "label": "Digital classrooms",
+        "detail": "Smart boards and technology-supported learning"
+      },
+      {
+        "value": "GPS",
+        "label": "Tracked transport",
+        "detail": "GPS-enabled buses with CCTV monitoring"
+      },
+      {
+        "value": "Safe",
+        "label": "Transport safeguards",
+        "detail": "Fire extinguishers, medical kits and lady attendants"
+      },
+      {
+        "value": "ERP",
+        "label": "School communication",
+        "detail": "Attendance, assignments and progress sharing"
+      },
+      {
+        "value": "Age",
+        "label": "Child-friendly spaces",
+        "detail": "Furniture and aids designed by developmental stage"
+      },
+      {
+        "value": "Pune",
+        "label": "Central location",
+        "detail": "Central Avenue, Kalyani Nagar"
+      }
+    ],
+    "experience_title": "A connected framework for every dimension of learning.",
+    "experience_text": "The Kalyani Nagar campus naturally aligns with the LEX360 framework — academic learning, health, expression, personal growth, innovation, connection and progress working as one system.",
+    "experience_cards": [
+      {
+        "image": "/assets/images/lex360/lex-innovate-main.webp",
+        "title": "Think new",
+        "text": "Problem solving, technology, creativity and future skills."
+      },
+      {
+        "image": "/assets/images/lex360/lex-thrive-habits.webp",
+        "title": "Grow with values",
+        "text": "Wellbeing, resilience, values and emotional development."
+      },
+      {
+        "image": "/assets/images/lex360/lex-connect-community.webp",
+        "title": "Connect beyond class",
+        "text": "Community, collaboration and real-world exposure."
+      }
+    ],
+    "voice": "Current campus information places strong emphasis on a school culture where academic excellence is accompanied by confidence, emotional intelligence, creativity, resilience and global awareness.",
+    "admission_title": "Explore admissions for Kalyani Nagar.",
+    "admission_text": "The official campus admissions page currently publishes 2026–27 age criteria and fee information. Current class availability and Senior Secondary subject combinations should always be confirmed on the campus admissions page before applying.",
+    "official_admission": "https://kalyaninagar.lexiconedu.in/admission/",
+    "official_disclosure": "https://kalyaninagar.lexiconedu.in/mandatory-disclosure",
+    "official_site": "https://kalyaninagar.lexiconedu.in/"
+  },
+  "hadapsar": {
+    "slug": "hadapsar",
+    "short": "Hadapsar",
+    "name": "The Lexicon School, Hadapsar",
+    "eyebrow": "Hadapsar · The Lexicon Schools",
+    "headline": "Learning that connects knowledge with confidence.",
+    "intro": "A CBSE school community on Pune–Saswad Road serving Nursery to Class XII, with an emphasis on enquiry, multiple intelligences, technology, communication and meaningful real-world learning.",
+    "image": "/assets/images/campuses/campus-hadapsar.webp",
+    "facts": [
+      {
+        "label": "Board",
+        "value": "CBSE"
+      },
+      {
+        "label": "Classes",
+        "value": "Nursery – Class XII"
+      },
+      {
+        "label": "Affiliation",
+        "value": "1130583"
+      },
+      {
+        "label": "Campus Area",
+        "value": "4,300 sq. m."
+      }
+    ],
+    "story_title": "A broad learning experience with room to explore and participate.",
+    "story": [
+      "The Hadapsar campus describes its academic programme as an all-round learning experience designed to develop intellectual curiosity, creative and critical thinking, communication and the ability to participate confidently in a connected world.",
+      "Its curriculum draws on CBSE teaching programmes and Multiple Intelligences, combining classroom learning with assemblies, competitions, field trips, community service, technology and co-curricular engagement."
+    ],
+    "learning": [
+      {
+        "kicker": "Programme",
+        "title": "Nursery to Class XII",
+        "text": "The campus serves learners from early years through Senior Secondary, with teaching designed to make learning enjoyable, meaningful and developmentally appropriate."
+      },
+      {
+        "kicker": "Methodology",
+        "title": "Multiple Intelligences",
+        "text": "The curriculum recognises that children learn in different ways and uses varied experiences to help them build confidence and apply their strengths."
+      },
+      {
+        "kicker": "Technology",
+        "title": "The Lexicon Tech Edge",
+        "text": "ICT labs, connected classrooms, coding and smart-board supported learning strengthen digital capability and logical thinking."
+      },
+      {
+        "kicker": "Experience",
+        "title": "Learning beyond textbooks",
+        "text": "Field trips, assemblies, projects, competitions, service and collaborative learning connect knowledge with communication and real-world contexts."
+      }
+    ],
+    "facilities": [
+      {
+        "value": "44",
+        "label": "Classrooms",
+        "detail": "Published in current mandatory disclosure"
+      },
+      {
+        "value": "7",
+        "label": "Laboratories",
+        "detail": "Including computer labs"
+      },
+      {
+        "value": "4,300",
+        "label": "Campus area",
+        "detail": "Square metres"
+      },
+      {
+        "value": "Net",
+        "label": "Internet facility",
+        "detail": "Available on campus"
+      },
+      {
+        "value": "CBSE",
+        "label": "School code",
+        "detail": "30597"
+      },
+      {
+        "value": "Pune",
+        "label": "Location",
+        "detail": "Next to SP Infocity, Pune–Saswad Road"
+      }
+    ],
+    "experience_title": "A school day that goes beyond marks.",
+    "experience_text": "Across academics, communication, technology, sport, arts, service and life skills, the campus experience is designed to build capable learners who can participate with confidence.",
+    "experience_cards": [
+      {
+        "image": "/assets/images/lex360/lex-expression-mun.webp",
+        "title": "Speak & participate",
+        "text": "Assemblies, debate, performance and communication opportunities."
+      },
+      {
+        "image": "/assets/images/lex360/lex-innovate-ai.webp",
+        "title": "Explore & innovate",
+        "text": "Technology, coding, problem solving and hands-on inquiry."
+      },
+      {
+        "image": "/assets/images/lex360/lex-connect-service.webp",
+        "title": "Serve & connect",
+        "text": "Community engagement, service and learning beyond campus."
+      }
+    ],
+    "voice": "Parent feedback published by the campus frequently mentions caring teachers, engaging curriculum, communication, infrastructure and opportunities for children to display confidence through exhibitions and school programmes.",
+    "admission_title": "Explore admissions for Hadapsar.",
+    "admission_text": "The campus mandatory public disclosure currently publishes 2026–27 new-admission fee information for Nursery to Class XII. Use the official campus website for the latest seat availability, application instructions and admission notices.",
+    "official_admission": "https://hadapsar.lexiconedu.in/",
+    "official_disclosure": "https://hadapsar.lexiconedu.in/mandatory-disclosure/",
+    "official_site": "https://hadapsar.lexiconedu.in/"
+  }
+}

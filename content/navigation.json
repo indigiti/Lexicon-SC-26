@@ -1,0 +1,200 @@
+[
+  {
+    "label": "Our Schools",
+    "href": "/about#schools",
+    "items": [
+      {
+        "label": "Wagholi",
+        "href": "/schools/wagholi"
+      },
+      {
+        "label": "Kalyani Nagar",
+        "href": "/schools/kalyani-nagar"
+      },
+      {
+        "label": "Hadapsar",
+        "href": "/schools/hadapsar"
+      },
+      {
+        "label": "Campus Tour",
+        "href": "/campus-tour"
+      },
+      {
+        "label": "Virtual Tour",
+        "href": "/virtual-tour"
+      }
+    ]
+  },
+  {
+    "label": "Admissions",
+    "href": "/admissions",
+    "items": [
+      {
+        "label": "Admissions Overview",
+        "href": "/admissions#overview"
+      },
+      {
+        "label": "How To Apply",
+        "href": "/admissions#process"
+      },
+      {
+        "label": "Apply Now",
+        "href": "/apply-now"
+      },
+      {
+        "label": "General Eligibility",
+        "href": "/admissions#eligibility"
+      },
+      {
+        "label": "Choose a School",
+        "href": "/admissions#schools"
+      },
+      {
+        "label": "Enquire",
+        "href": "/enquire"
+      },
+      {
+        "label": "Book a Visit",
+        "href": "/book-a-visit"
+      },
+      {
+        "label": "Admission FAQs",
+        "href": "/admissions#faqs"
+      }
+    ]
+  },
+  {
+    "label": "The Lexicon Difference",
+    "href": "/lex360",
+    "items": [
+      {
+        "label": "LexiCore",
+        "href": "/lex360#lexicore"
+      },
+      {
+        "label": "LexiFit",
+        "href": "/lex360#lexifit"
+      },
+      {
+        "label": "LexiExpression",
+        "href": "/lex360#lexiexpression"
+      },
+      {
+        "label": "LexiThrive",
+        "href": "/lex360#lexithrive"
+      },
+      {
+        "label": "LexiInnovate",
+        "href": "/lex360#lexiinnovate"
+      },
+      {
+        "label": "LexiConnect",
+        "href": "/lex360#lexiconnect"
+      },
+      {
+        "label": "LexiTrack",
+        "href": "/lex360#lexitrack"
+      }
+    ]
+  },
+  {
+    "label": "About Us",
+    "href": "/about",
+    "items": [
+      {
+        "label": "Our Story",
+        "href": "/about#story"
+      },
+      {
+        "label": "Vision, Mission & Values",
+        "href": "/about#philosophy"
+      },
+      {
+        "label": "Leadership",
+        "href": "/about#leadership"
+      },
+      {
+        "label": "Our Schools",
+        "href": "/about#schools"
+      },
+      {
+        "label": "Our Educators",
+        "href": "/about#educators"
+      },
+      {
+        "label": "Governance & Affiliations",
+        "href": "/about#governance"
+      }
+    ]
+  },
+  {
+    "label": "Achievements",
+    "href": "/achievements",
+    "items": [
+      {
+        "label": "Highlights",
+        "href": "/achievements#highlights"
+      },
+      {
+        "label": "Awards & Achievements",
+        "href": "/achievements#awards"
+      },
+      {
+        "label": "Distinguished Visits & Milestones",
+        "href": "/achievements#moments"
+      },
+      {
+        "label": "In the Media",
+        "href": "/achievements#media"
+      },
+      {
+        "label": "Parent Feedback",
+        "href": "/achievements#parents"
+      }
+    ]
+  },
+  {
+    "label": "Alumni",
+    "href": "/alumni",
+    "items": [
+      {
+        "label": "Meet Our Alumni",
+        "href": "/alumni#stories"
+      },
+      {
+        "label": "Join the Alumni Network",
+        "href": "/alumni#join"
+      }
+    ]
+  },
+  {
+    "label": "Contact",
+    "href": "/contact",
+    "items": [
+      {
+        "label": "Get in Touch",
+        "href": "/contact"
+      },
+      {
+        "label": "Enquire",
+        "href": "/enquire"
+      },
+      {
+        "label": "Book a Visit",
+        "href": "/book-a-visit"
+      },
+      {
+        "label": "Campus Tour",
+        "href": "/campus-tour"
+      },
+      {
+        "label": "Virtual Tour",
+        "href": "/virtual-tour"
+      },
+      {
+        "label": "School Contacts",
+        "href": "/contact#schools"
+      }
+    ]
+  }
+]

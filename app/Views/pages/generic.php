@@ -1,0 +1,3 @@
+
+<section class="generic-hero"><div class="container"><div class="eyebrow"><?= e($eyebrow ?? 'The Lexicon Schools') ?></div><h1><?= e($heading) ?></h1><p><?= e($intro) ?></p></div></section>
+<section class="generic-content"><div class="container"><div class="generic-grid"><?php foreach (($cards ?? []) as $card): ?><article class="info-card"><h2><?= e($card['title']) ?></h2><p><?= e($card['text']) ?></p><?php if (!empty($card['href'])): ?><a class="text-link" href="<?= e($card['href']) ?>"><?= e($card['label'] ?? 'Explore') ?> →</a><?php endif; ?></article><?php endforeach; ?></div></div></section>

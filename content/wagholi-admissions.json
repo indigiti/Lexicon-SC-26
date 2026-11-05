@@ -1,0 +1,176 @@
+{
+  "campus": "The Lexicon International School, Wagholi",
+  "academic_year": "2026–27",
+  "application_fee": "₹3,000",
+  "application_fee_note": "Non-refundable application form fee, payable at submission.",
+  "hero": {
+    "eyebrow": "Wagholi Admissions · 2026–27",
+    "title": "Your Wagholi admission journey, clearly explained.",
+    "intro": "Check age eligibility, understand the application and selection process, prepare documents, and review the separate Class XI pathway before continuing to the official application system."
+  },
+  "essentials": [
+    {
+      "label": "Application",
+      "value": "Online",
+      "text": "Use the official Wagholi application route and complete every required field carefully."
+    },
+    {
+      "label": "Application Fee",
+      "value": "₹3,000",
+      "text": "The published application form fee is non-refundable and is paid at submission."
+    },
+    {
+      "label": "Communication",
+      "value": "Email",
+      "text": "The email ID used at registration is used for admission communication until enrolment is completed."
+    },
+    {
+      "label": "Selection",
+      "value": "As applicable",
+      "text": "Eligibility scrutiny and a lucky-draw process may apply for general applicants, depending on the admission category and seat process."
+    }
+  ],
+  "age_criteria": [
+    {"class":"Nursery","eligibility":"Born between 1 January 2023 and 31 December 2023","age":"3 years and above but below 4 years"},
+    {"class":"LKG","eligibility":"Born between 1 January 2022 and 31 December 2022","age":"4 years and above but below 5 years"},
+    {"class":"UKG","eligibility":"Born between 1 January 2021 and 31 December 2021","age":"5 years and above but below 6 years"},
+    {"class":"Class I","eligibility":"Born between 1 January 2020 and 31 December 2020","age":"6 years and above but below 7 years"},
+    {"class":"Class II","eligibility":"Must have passed Class I from a recognised school","age":"Previous-grade eligibility"},
+    {"class":"Class III","eligibility":"Must have passed Class II from a recognised school","age":"Previous-grade eligibility"},
+    {"class":"Class IV","eligibility":"Must have passed Class III from a recognised school","age":"Previous-grade eligibility"},
+    {"class":"Class V","eligibility":"Must have passed Grade IV from a recognised school","age":"Previous-grade eligibility"},
+    {"class":"Class VI","eligibility":"Must have passed Grade V from a recognised school","age":"Previous-grade eligibility"},
+    {"class":"Class VII","eligibility":"Must have passed Grade VI from a recognised school","age":"Previous-grade eligibility"},
+    {"class":"Class VIII","eligibility":"Must have passed Grade VII from a recognised school","age":"Previous-grade eligibility"},
+    {"class":"Class IX","eligibility":"Must have passed Grade VIII from a recognised school","age":"Previous-grade eligibility"},
+    {"class":"Class XI","eligibility":"Must have passed Grade X from a recognised school and board and fulfil the applicable admission criteria","age":"Separate Senior Secondary process"}
+  ],
+  "guidelines": [
+    "Ensure the child’s, father’s and mother’s / guardian’s names match government records such as Aadhaar and the birth certificate before starting the application.",
+    "Read the school Rules & Regulations before filling the online form.",
+    "Complete every compulsory field in the online application.",
+    "Check the age criteria before submitting the form. The published age limits are applied strictly.",
+    "For students coming from another school, details on the Transfer / Leaving Certificate should match the application for name, date and place of birth, religion, category and other identity particulars.",
+    "Submit Aadhaar copies for the child and parent / legal guardian as required. If the child’s Aadhaar is under enrolment, retain the enrolment slip and follow the school’s submission timeline.",
+    "Resolve discrepancies between the birth certificate, Aadhaar and previous-school records promptly and submit corrected documents when required.",
+    "Complete the online payment after filling the form and preserve the unique code / generated PDF reference for your records.",
+    "Submit only one valid application per child. Incorrect, incomplete, duplicate or invalid entries may be disqualified.",
+    "Monitor the registered email ID for further instructions from the school after the application is completed."
+  ],
+  "minority": [
+    "Applications submitted under the Minority category are scrutinised by the School Admission Committee.",
+    "Preference is given to Hindi Linguistic Minority students.",
+    "Eligible minority seats are allotted on priority, subject to the school’s process and availability.",
+    "Remaining seats are opened to other applicants after the minority-priority process."
+  ],
+  "general_process": [
+    {"step":"01","title":"Application received","text":"The School Admission Committee supervises the online application process."},
+    {"step":"02","title":"Eligibility check","text":"Applicant names enter the selection process only after the eligibility check is completed."},
+    {"step":"03","title":"Lucky-draw schedule","text":"Where a lucky draw applies, the school communicates the weekday / schedule to applicants."},
+    {"step":"04","title":"Parent-attended draw","text":"The lucky draw is conducted by the admission committee in the presence of participating parents / applicants."},
+    {"step":"05","title":"Selection record","text":"Selected student names are recorded and the attendance / process record is completed."},
+    {"step":"06","title":"Selection notice","text":"Selected names are displayed / communicated through the school’s stated admission process."},
+    {"step":"07","title":"Email intimation","text":"Selected families receive further admission instructions through the registered communication channel."},
+    {"step":"08","title":"3 working days","text":"The published process provides three working days after intimation for admission confirmation and payment."},
+    {"step":"09","title":"Seat release","text":"If admission is not confirmed in the stated period, the offer may be cancelled and the seat offered to the next eligible candidate."}
+  ],
+  "documents": [
+    "Age proof / birth certificate of the student",
+    "Original School Leaving Certificate",
+    "Aadhaar copy of the student and parent(s) / legal guardian(s), as required",
+    "Current residence proof of parent(s) / legal guardian(s)",
+    "Permanent residence proof of parent(s) / legal guardian(s)",
+    "Bonafide certificate for LKG onward, where applicable",
+    "Copy of the latest progress report card",
+    "Caste Certificate, where applicable",
+    "Certificate of Legal Guardianship, where applicable",
+    "Minority undertaking, where applicable",
+    "Three recent passport-size photographs"
+  ],
+  "policies": [
+    {
+      "title":"Application and admission",
+      "text":"Submission of an application does not guarantee admission. Admission remains subject to eligibility, the applicable selection process, seat availability, document verification and completion of formalities."
+    },
+    {
+      "title":"Application fee",
+      "text":"The published online application form fee is ₹3,000 and is non-refundable. This is separate from the school admission fee and annual / term fees."
+    },
+    {
+      "title":"Fee information",
+      "text":"Current school fees, instalment dates, transport charges and other financial schedules should be checked on the official campus admissions publication before payment. This page intentionally does not reproduce older fee tables."
+    },
+    {
+      "title":"Documents and identity",
+      "text":"Identity and address documents must be consistent with the application. The school may require originals for verification and may ask families to correct discrepancies within the stated admission timeline."
+    },
+    {
+      "title":"Campus transfer",
+      "text":"The published school terms state that once a student is registered in one Lexicon school, internal transfer to another campus is not permissible. Families should therefore confirm the intended campus before completing admission."
+    },
+    {
+      "title":"Information may change",
+      "text":"Admission procedures, seats, schedules, fees and operational requirements can change. The official school record and current campus communication prevail if there is any discrepancy."
+    }
+  ],
+  "class_xi": {
+    "intro":"Class XI follows a separate Senior Secondary process involving the online application, a school visit with documents, counselling and an aptitude test, followed by provisional admission and final Board-result review.",
+    "process":[
+      {"step":"01","title":"Online application","text":"Fill the online form using the same correct details used for Class X Board registration."},
+      {"step":"02","title":"Counselling + aptitude test","text":"Visit the school office with a printed application and the required documents for the scheduled counselling session followed by the aptitude test."},
+      {"step":"03","title":"Provisional admission","text":"Provisional admission is based on the interaction and the student’s aptitude-test performance, and remains subject to final Board-result review and the school’s current criteria."}
+    ],
+    "documents":[
+      "Birth Certificate",
+      "Student and parent / legal guardian Aadhaar copies",
+      "Current residence proof",
+      "Permanent residence proof, if different",
+      "Bonafide Certificate from the current school for non-Lexiconites",
+      "Class IX Report Card and Class X Mid-Term Report Card for non-Lexiconites",
+      "Caste Certificate, where applicable",
+      "Legal Guardianship Certificate, where applicable",
+      "Minority undertaking, where applicable",
+      "Three recent passport-size photographs"
+    ],
+    "confirmation_docs":[
+      "Final Board Examination Mark Sheet",
+      "Original Transfer Certificate",
+      "Character Certificate for non-Lexiconites"
+    ],
+    "streams":[
+      {
+        "name":"Science",
+        "blocks":[
+          {"label":"Block 1 · Compulsory","subjects":["English","Physics","Chemistry"]},
+          {"label":"Block 2 · Choose any 1","subjects":["Mathematics","Applied Mathematics","Biology"]},
+          {"label":"Block 3 · Choose any 1","subjects":["Information Technology","Informatics Practices","Psychology","Physical Education","Entrepreneurship"]}
+        ]
+      },
+      {
+        "name":"Commerce",
+        "blocks":[
+          {"label":"Block 1 · Compulsory","subjects":["English","Business Studies"]},
+          {"label":"Block 2 · Choose any 1","subjects":["Accountancy","Entrepreneurship","Geography"]},
+          {"label":"Block 3 · Choose any 1","subjects":["Economics","Mathematics","Applied Mathematics"]},
+          {"label":"Block 4 · Choose any 1","subjects":["Information Technology","Informatics Practices","Psychology","Physical Education","Entrepreneurship"]}
+        ]
+      },
+      {
+        "name":"Humanities / Arts",
+        "blocks":[
+          {"label":"Block 1 · Compulsory","subjects":["English","Psychology"]},
+          {"label":"Block 2 · Choose any 1","subjects":["Geography","Entrepreneurship"]},
+          {"label":"Block 3 · Choose any 1","subjects":["History","Economics"]},
+          {"label":"Block 4 · Choose any 1","subjects":["Information Technology","Informatics Practices","Physical Education","Entrepreneurship"]}
+        ]
+      }
+    ],
+    "important":[
+      "The previous Class XI annexure states that final confirmation follows review of Board Examination results and school cut-off criteria. Current 2026–27 cut-offs should be confirmed with the Wagholi admissions team before publication as fixed values.",
+      "Foreign nationals must submit the applicable Visa / Residence Permit / embassy documentation required for admission.",
+      "Once school begins, the annexure states that 75% attendance is mandatory as per CBSE norms.",
+      "Families should budget separately for items such as uniform, transport, educational trips, co-curricular materials, activities and public / board examination charges where applicable.",
+      "Submission of an application form does not guarantee admission."
+    ]
+  }
+}

@@ -1,0 +1,2246 @@
+{
+  "version": "0.4.0",
+  "academic_year": "2026–27",
+  "generated_from": "Campus academic planners, assessment patterns and holiday lists supplied by the user.",
+  "categories": {
+    "assessment": {
+      "label": "Assessment",
+      "tone": "blue"
+    },
+    "holiday": {
+      "label": "Holiday",
+      "tone": "red"
+    },
+    "break": {
+      "label": "Break",
+      "tone": "sand"
+    },
+    "ptm": {
+      "label": "PTM",
+      "tone": "green"
+    },
+    "event": {
+      "label": "Event",
+      "tone": "orange"
+    },
+    "opening": {
+      "label": "School Day",
+      "tone": "navy"
+    },
+    "orientation": {
+      "label": "Orientation",
+      "tone": "violet"
+    },
+    "trip": {
+      "label": "Trip",
+      "tone": "teal"
+    }
+  },
+  "campuses": {
+    "wagholi": {
+      "name": "The Lexicon International School, Wagholi",
+      "slug": "wagholi",
+      "academic_year": "2026–27",
+      "intro": "A clearer view of the school year — key dates, assessments, breaks and learning milestones in one responsive campus experience.",
+      "events": [
+        {
+          "date": "2026-04-07",
+          "title": "Parent Orientation for New Parents (PP–XI)",
+          "category": "orientation",
+          "audience": [
+            "parents"
+          ],
+          "description": "New parent orientation.",
+          "featured": false
+        },
+        {
+          "date": "2026-04-08",
+          "title": "School re-opens for Classes I–XII",
+          "category": "opening",
+          "audience": [
+            "all"
+          ],
+          "description": "Welcome assembly and EPTA nomination process.",
+          "featured": true
+        },
+        {
+          "date": "2026-04-09",
+          "title": "School re-opens for Nursery, LKG & UKG",
+          "category": "opening",
+          "audience": [
+            "pre-primary"
+          ],
+          "description": "Pre-primary welcome activities.",
+          "featured": false
+        },
+        {
+          "date": "2026-04-24",
+          "title": "PTM for PP–Class IV",
+          "category": "ptm",
+          "audience": [
+            "parents",
+            "pre-primary",
+            "primary"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2026-04-25",
+          "title": "PTM for Classes V–XII",
+          "category": "ptm",
+          "audience": [
+            "parents",
+            "middle",
+            "senior"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2026-04-30",
+          "title": "Last working day before summer break",
+          "category": "break",
+          "audience": [
+            "all"
+          ],
+          "description": "Class party and Bagless Day for Nursery–VIII.",
+          "featured": false
+        },
+        {
+          "date": "2026-05-01",
+          "title": "Summer break begins for students",
+          "category": "break",
+          "audience": [
+            "all"
+          ],
+          "description": "Maharashtra Day / Buddha Purnima.",
+          "featured": false
+        },
+        {
+          "date": "2026-06-04",
+          "title": "School re-opens for Staff & Admin",
+          "category": "opening",
+          "audience": [
+            "staff"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2026-06-05",
+          "title": "Parent Orientation for New Parents (I–XI)",
+          "category": "orientation",
+          "audience": [
+            "parents"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2026-06-09",
+          "title": "School re-opens for Students",
+          "category": "opening",
+          "audience": [
+            "all"
+          ],
+          "description": "World Environment Day activities and welcome assembly.",
+          "featured": true
+        },
+        {
+          "date": "2026-06-19",
+          "title": "PTM for PP–Class IV",
+          "category": "ptm",
+          "audience": [
+            "parents",
+            "pre-primary",
+            "primary"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2026-06-20",
+          "title": "Fuel to Fly 4.0 & PTM for Classes V–XII",
+          "category": "ptm",
+          "audience": [
+            "parents",
+            "middle",
+            "senior"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2026-07-10",
+          "title": "Investiture Ceremony",
+          "category": "event",
+          "audience": [
+            "all"
+          ],
+          "description": "Student leadership milestone.",
+          "featured": true
+        },
+        {
+          "date": "2026-07-27",
+          "title": "First Quarterly Assessments / Periodic Test 1 begin",
+          "category": "assessment",
+          "audience": [
+            "all"
+          ],
+          "description": "Nursery–VIII quarterly assessments; IX–XII Periodic Test 1.",
+          "featured": true
+        },
+        {
+          "date": "2026-08-06",
+          "title": "First Quarterly Assessments / Periodic Test 1 end",
+          "category": "assessment",
+          "audience": [
+            "all"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2026-08-21",
+          "title": "PTM for Classes V–XII & Youth Football Cup",
+          "category": "ptm",
+          "audience": [
+            "parents",
+            "middle",
+            "senior"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2026-08-22",
+          "title": "PTM for PP–Class IV & Youth Football Cup",
+          "category": "ptm",
+          "audience": [
+            "parents",
+            "pre-primary",
+            "primary"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2026-09-10",
+          "title": "MI Fest & Tech Carnival",
+          "category": "event",
+          "audience": [
+            "all"
+          ],
+          "description": "Innovation and technology showcase.",
+          "featured": true
+        },
+        {
+          "date": "2026-09-11",
+          "title": "Senior MUN begins",
+          "category": "event",
+          "audience": [
+            "middle",
+            "senior"
+          ],
+          "description": "Sr MUN for Classes VII–XII.",
+          "featured": false
+        },
+        {
+          "date": "2026-09-12",
+          "title": "Senior MUN continues",
+          "category": "event",
+          "audience": [
+            "middle",
+            "senior"
+          ],
+          "description": "Sr MUN for Classes VII–XII.",
+          "featured": false
+        },
+        {
+          "date": "2026-09-28",
+          "title": "Half-Yearly Assessments begin",
+          "category": "assessment",
+          "audience": [
+            "all"
+          ],
+          "description": "Half-Yearly assessments / Term assessment window.",
+          "featured": true
+        },
+        {
+          "date": "2026-10-12",
+          "title": "Half-Yearly Assessments end",
+          "category": "assessment",
+          "audience": [
+            "all"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2026-10-13",
+          "title": "Sports Week begins",
+          "category": "event",
+          "audience": [
+            "all"
+          ],
+          "description": "Sports Week across age groups.",
+          "featured": true
+        },
+        {
+          "date": "2026-10-24",
+          "title": "The Lexicon Pre-School Football Cup & PTMs",
+          "category": "event",
+          "audience": [
+            "parents",
+            "all"
+          ],
+          "description": "Pre-school football, parent workshop for X & XII, PTMs.",
+          "featured": false
+        },
+        {
+          "date": "2026-10-31",
+          "title": "Annual Concert – Classes IV, V & VI",
+          "category": "event",
+          "audience": [
+            "primary",
+            "middle"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2026-11-05",
+          "title": "Diwali break begins for students",
+          "category": "break",
+          "audience": [
+            "all"
+          ],
+          "description": "Snehsammelan / last working day before break.",
+          "featured": false
+        },
+        {
+          "date": "2026-11-16",
+          "title": "School re-opens after Diwali break",
+          "category": "opening",
+          "audience": [
+            "all"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2026-11-17",
+          "title": "Short Test Series begins for Classes X & XII",
+          "category": "assessment",
+          "audience": [
+            "senior"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2026-11-20",
+          "title": "PTM for PP–Class IV",
+          "category": "ptm",
+          "audience": [
+            "parents",
+            "pre-primary",
+            "primary"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2026-11-21",
+          "title": "PTM for Classes V–XII",
+          "category": "ptm",
+          "audience": [
+            "parents",
+            "middle",
+            "senior"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2026-11-28",
+          "title": "Annual Concert – Class II",
+          "category": "event",
+          "audience": [
+            "primary"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2026-12-05",
+          "title": "Annual Concert – PP & Class III",
+          "category": "event",
+          "audience": [
+            "pre-primary",
+            "primary"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2026-12-09",
+          "title": "Pre-Board 1 begins",
+          "category": "assessment",
+          "audience": [
+            "senior"
+          ],
+          "description": "Classes X & XII.",
+          "featured": false
+        },
+        {
+          "date": "2026-12-12",
+          "title": "Annual Concert – I, VII–IX & XI",
+          "category": "event",
+          "audience": [
+            "primary",
+            "middle",
+            "senior"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2026-12-19",
+          "title": "Lexicon Legacy Gala 2026",
+          "category": "event",
+          "audience": [
+            "all"
+          ],
+          "description": "Vicennial celebrations.",
+          "featured": true
+        },
+        {
+          "date": "2026-12-21",
+          "title": "Science Exhibition & STEAM Fest",
+          "category": "event",
+          "audience": [
+            "all"
+          ],
+          "description": "Science Exhibition for Nursery–IV and STEAM Fest for V–XII.",
+          "featured": true
+        },
+        {
+          "date": "2026-12-22",
+          "title": "Pre-Board 1 ends",
+          "category": "assessment",
+          "audience": [
+            "senior"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2026-12-24",
+          "title": "Christmas break begins",
+          "category": "break",
+          "audience": [
+            "all"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2027-01-04",
+          "title": "School re-opens after Christmas break",
+          "category": "opening",
+          "audience": [
+            "all"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2027-01-07",
+          "title": "Second Quarterly / PT3 / Pre-Board 2 begin",
+          "category": "assessment",
+          "audience": [
+            "all"
+          ],
+          "description": "Nursery–VIII second quarterly; IX & XI PT3; X & XII Pre-Board 2.",
+          "featured": true
+        },
+        {
+          "date": "2027-01-19",
+          "title": "Second Quarterly / PT3 / Pre-Board 2 end",
+          "category": "assessment",
+          "audience": [
+            "all"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2027-01-29",
+          "title": "The Lexicon Junior MUN begins",
+          "category": "event",
+          "audience": [
+            "primary",
+            "middle"
+          ],
+          "description": "Classes III–VI.",
+          "featured": true
+        },
+        {
+          "date": "2027-01-30",
+          "title": "Junior MUN continues & Class XII Farewell",
+          "category": "event",
+          "audience": [
+            "middle",
+            "senior"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2027-02-06",
+          "title": "UKG Graduation Day",
+          "category": "event",
+          "audience": [
+            "pre-primary"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2027-02-23",
+          "title": "Final Assessments begin",
+          "category": "assessment",
+          "audience": [
+            "all"
+          ],
+          "description": "",
+          "featured": true
+        },
+        {
+          "date": "2027-03-25",
+          "title": "Report Day",
+          "category": "event",
+          "audience": [
+            "parents",
+            "all"
+          ],
+          "description": "",
+          "featured": true
+        },
+        {
+          "date": "2027-03-29",
+          "title": "Parent Orientation",
+          "category": "orientation",
+          "audience": [
+            "parents"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2027-04-08",
+          "title": "School re-opens for LKG–XII",
+          "category": "opening",
+          "audience": [
+            "all"
+          ],
+          "description": "",
+          "featured": true
+        },
+        {
+          "date": "2027-04-09",
+          "title": "School re-opens for Nursery",
+          "category": "opening",
+          "audience": [
+            "pre-primary"
+          ],
+          "description": "",
+          "featured": false
+        }
+      ],
+      "holidays": [
+        {
+          "date": "2026-04-03",
+          "title": "Good Friday"
+        },
+        {
+          "date": "2026-04-14",
+          "title": "Dr Ambedkar Jayanti"
+        },
+        {
+          "date": "2026-05-01",
+          "title": "Maharashtra Day / Buddha Purnima"
+        },
+        {
+          "date": "2026-05-27",
+          "title": "Eid-ul-Adha"
+        },
+        {
+          "date": "2026-06-26",
+          "title": "Muharram"
+        },
+        {
+          "date": "2026-08-15",
+          "title": "Independence Day"
+        },
+        {
+          "date": "2026-08-26",
+          "title": "Eid-a-Milad"
+        },
+        {
+          "date": "2026-08-28",
+          "title": "Raksha Bandhan"
+        },
+        {
+          "date": "2026-09-04",
+          "title": "Janmashtami"
+        },
+        {
+          "date": "2026-09-14",
+          "title": "Ganesh Chaturthi"
+        },
+        {
+          "date": "2026-09-18",
+          "title": "Gauri Pujan"
+        },
+        {
+          "date": "2026-09-25",
+          "title": "Anant Chaturdashi"
+        },
+        {
+          "date": "2026-10-02",
+          "title": "Gandhi Jayanti"
+        },
+        {
+          "date": "2026-10-20",
+          "title": "Dussehra"
+        },
+        {
+          "date": "2026-11-08",
+          "title": "Diwali"
+        },
+        {
+          "date": "2026-11-11",
+          "title": "Bhaidooj"
+        },
+        {
+          "date": "2026-11-24",
+          "title": "Guru Nanak Jayanti"
+        },
+        {
+          "date": "2026-12-25",
+          "title": "Christmas"
+        },
+        {
+          "date": "2027-01-01",
+          "title": "New Year"
+        },
+        {
+          "date": "2027-01-15",
+          "title": "Makar Sankranti"
+        },
+        {
+          "date": "2027-01-26",
+          "title": "Republic Day"
+        },
+        {
+          "date": "2027-02-19",
+          "title": "Chhatrapati Shivaji Maharaj Jayanti"
+        },
+        {
+          "date": "2027-03-06",
+          "title": "Maha Shivratri"
+        },
+        {
+          "date": "2027-03-10",
+          "title": "Eid al-Fitr"
+        },
+        {
+          "date": "2027-03-22",
+          "title": "Holi"
+        },
+        {
+          "date": "2027-03-26",
+          "title": "Good Friday"
+        },
+        {
+          "date": "2027-03-28",
+          "title": "Easter"
+        }
+      ],
+      "breaks": [
+        {
+          "title": "Summer Break",
+          "start": "2026-05-01",
+          "end": "2026-06-08",
+          "status": "planner-derived"
+        },
+        {
+          "title": "Short Break",
+          "start": "2026-08-26",
+          "end": "2026-08-29",
+          "status": "planner-derived"
+        },
+        {
+          "title": "Diwali Break",
+          "start": "2026-11-05",
+          "end": "2026-11-15",
+          "status": "planner-derived"
+        },
+        {
+          "title": "Christmas Break",
+          "start": "2026-12-24",
+          "end": "2027-01-03",
+          "status": "planner-derived"
+        }
+      ],
+      "documents": {
+        "planner": "/assets/docs/academics/wagholi/academic-planner-2026-27.pdf",
+        "assessment": "/assets/docs/academics/wagholi/assessment-pattern.pdf",
+        "holiday": null
+      },
+      "source_notes": [
+        "The file supplied as “wagholi holidays.pdf” renders as a Hadapsar holiday list and is not published as a Wagholi source.",
+        "Holiday dates shown on the web summary are derived from the Wagholi Academic / Activity Planner until a campus-specific official holiday-list PDF is supplied."
+      ],
+      "assessment": {
+        "overview": "Assessment is treated as an integral part of learning, combining written examinations, internal assessment, portfolios, subject enrichment and co-scholastic development.",
+        "groups": [
+          {
+            "key": "i-v",
+            "label": "Classes I–V",
+            "grading": "5-point scholastic grading scale",
+            "term_1": "20 marks Periodic/Quarterly Assessment + 80 marks Half-Yearly Examination",
+            "term_2": "20 marks Periodic/Quarterly Assessment + 80 marks Yearly Examination"
+          },
+          {
+            "key": "vi-ix",
+            "label": "Classes VI–IX",
+            "grading": "8-point scholastic grading scale",
+            "term_1": "20 marks Periodic/Quarterly Assessment + 80 marks Half-Yearly Examination",
+            "term_2": "20 marks Periodic/Quarterly Assessment + 80 marks Yearly Examination"
+          },
+          {
+            "key": "x",
+            "label": "Class X",
+            "grading": "9-point scholastic grading scale",
+            "term_1": "Periodic/Quarterly assessments plus written examination",
+            "term_2": "Pre-Board examinations and CBSE Board examination based on the prescribed syllabus"
+          },
+          {
+            "key": "xi",
+            "label": "Class XI",
+            "grading": "8-point scholastic grading scale",
+            "term_1": "Periodic Test 1 – 50 marks · Periodic Test 2 – 100 marks",
+            "term_2": "Periodic Test 3 – 50 marks · Periodic Test 4 – 100 marks"
+          },
+          {
+            "key": "xii",
+            "label": "Class XII",
+            "grading": "9-point scholastic grading scale",
+            "term_1": "Periodic Test 1 – 50 marks · Periodic Test 2 – 50 marks",
+            "term_2": "Periodic Test 3 – 100 marks · 3 Pre-Board examinations (60/70/80 marks depending on subject)"
+          }
+        ],
+        "internal": [
+          {
+            "label": "Periodic Test",
+            "marks": "5"
+          },
+          {
+            "label": "Multiple Assessments",
+            "marks": "5"
+          },
+          {
+            "label": "Portfolio",
+            "marks": "5"
+          },
+          {
+            "label": "Subject Enrichment",
+            "marks": "5"
+          }
+        ],
+        "portfolio": [
+          {
+            "label": "Regularity",
+            "marks": "2"
+          },
+          {
+            "label": "Punctuality",
+            "marks": "1"
+          },
+          {
+            "label": "Notebook neatness & upkeep",
+            "marks": "2"
+          }
+        ],
+        "enrichment": [
+          "Languages – Speaking & Listening / ASL",
+          "Mathematics – Lab activities & projects",
+          "Science – Practicals, projects & other activities",
+          "Social Science – Maps, projects & models",
+          "ICT / AI – Practicals"
+        ],
+        "co_scholastic": [
+          "Work Education",
+          "Art Education",
+          "Health & Physical Education"
+        ],
+        "senior_co_scholastic": [
+          "Work Education (SEWA)",
+          "Health & Physical Education",
+          "General Studies"
+        ],
+        "discipline": "Attendance, sincerity, behaviour and values are considered in discipline grading."
+      }
+    },
+    "kalyani-nagar": {
+      "name": "The Lexicon International School, Kalyani Nagar",
+      "slug": "kalyani-nagar",
+      "academic_year": "2026–27",
+      "intro": "A clearer view of the school year — key dates, assessments, breaks and learning milestones in one responsive campus experience.",
+      "events": [
+        {
+          "date": "2026-04-07",
+          "title": "Parent Orientation for New Parents",
+          "category": "orientation",
+          "audience": [
+            "parents"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2026-04-08",
+          "title": "School opens for Classes I–XII",
+          "category": "opening",
+          "audience": [
+            "all"
+          ],
+          "description": "Welcome assembly and EPTA nomination process.",
+          "featured": true
+        },
+        {
+          "date": "2026-04-09",
+          "title": "School opens for Nursery, LKG & UKG",
+          "category": "opening",
+          "audience": [
+            "pre-primary"
+          ],
+          "description": "Welcome assembly.",
+          "featured": false
+        },
+        {
+          "date": "2026-04-30",
+          "title": "Last working day before summer break",
+          "category": "break",
+          "audience": [
+            "all"
+          ],
+          "description": "Class party and Bagless Day Nursery–VIII.",
+          "featured": false
+        },
+        {
+          "date": "2026-05-01",
+          "title": "Summer break begins for students",
+          "category": "break",
+          "audience": [
+            "all"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2026-05-04",
+          "title": "Last working day for teachers",
+          "category": "break",
+          "audience": [
+            "staff"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2026-06-04",
+          "title": "School re-opens for Staff & Admin",
+          "category": "opening",
+          "audience": [
+            "staff"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2026-06-05",
+          "title": "Parent Orientation for New Admissions",
+          "category": "orientation",
+          "audience": [
+            "parents"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2026-06-15",
+          "title": "School re-opens for Students",
+          "category": "opening",
+          "audience": [
+            "all"
+          ],
+          "description": "Welcome assembly by teachers.",
+          "featured": true
+        },
+        {
+          "date": "2026-06-24",
+          "title": "Young Entrepreneurs & Field Trips",
+          "category": "event",
+          "audience": [
+            "primary",
+            "middle",
+            "senior"
+          ],
+          "description": "Young Entrepreneurs VIII; field trip Classes I–II.",
+          "featured": false
+        },
+        {
+          "date": "2026-06-25",
+          "title": "Field Trips – Classes III–V",
+          "category": "trip",
+          "audience": [
+            "primary"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2026-06-29",
+          "title": "Young Entrepreneurs – Class XII",
+          "category": "event",
+          "audience": [
+            "senior"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2026-07-27",
+          "title": "FQA / Periodic Test 1 begin",
+          "category": "assessment",
+          "audience": [
+            "all"
+          ],
+          "description": "FQA Nursery–VIII; Periodic Test 1 IX–XII.",
+          "featured": true
+        },
+        {
+          "date": "2026-08-06",
+          "title": "FQA / Periodic Test 1 end",
+          "category": "assessment",
+          "audience": [
+            "all"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2026-09-11",
+          "title": "Senior Lexi MUN begins",
+          "category": "event",
+          "audience": [
+            "middle",
+            "senior"
+          ],
+          "description": "Sr Lexi MUN – TLISW.",
+          "featured": true
+        },
+        {
+          "date": "2026-09-12",
+          "title": "Senior Lexi MUN continues",
+          "category": "event",
+          "audience": [
+            "middle",
+            "senior"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2026-09-28",
+          "title": "Half-Yearly Assessments begin",
+          "category": "assessment",
+          "audience": [
+            "all"
+          ],
+          "description": "",
+          "featured": true
+        },
+        {
+          "date": "2026-10-12",
+          "title": "Half-Yearly / PT2 assessments end",
+          "category": "assessment",
+          "audience": [
+            "all"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2026-10-23",
+          "title": "The Lexicon Pre-School Football Cup",
+          "category": "event",
+          "audience": [
+            "pre-primary"
+          ],
+          "description": "",
+          "featured": true
+        },
+        {
+          "date": "2026-11-05",
+          "title": "Last working day for students / Diwali break begins",
+          "category": "break",
+          "audience": [
+            "all"
+          ],
+          "description": "Snehsammelan for support staff.",
+          "featured": false
+        },
+        {
+          "date": "2026-11-16",
+          "title": "School re-opens after Diwali break",
+          "category": "opening",
+          "audience": [
+            "all"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2026-11-17",
+          "title": "Short Test Series begins for Classes X & XII",
+          "category": "assessment",
+          "audience": [
+            "senior"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2026-11-28",
+          "title": "PTM-4 for Nursery–Class XI",
+          "category": "ptm",
+          "audience": [
+            "parents",
+            "all"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2026-11-30",
+          "title": "Short Test Series ends",
+          "category": "assessment",
+          "audience": [
+            "senior"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2026-12-09",
+          "title": "Pre-Board 1 begins for X & XII",
+          "category": "assessment",
+          "audience": [
+            "senior"
+          ],
+          "description": "",
+          "featured": true
+        },
+        {
+          "date": "2026-12-14",
+          "title": "Annual Concert cycle begins",
+          "category": "event",
+          "audience": [
+            "all"
+          ],
+          "description": "Annual Concerts for PP–IX & XI across the week.",
+          "featured": true
+        },
+        {
+          "date": "2026-12-21",
+          "title": "Pre-Board 1 ends",
+          "category": "assessment",
+          "audience": [
+            "senior"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2026-12-23",
+          "title": "Last working day for students",
+          "category": "break",
+          "audience": [
+            "all"
+          ],
+          "description": "Christmas carnival / Bagless Day activities.",
+          "featured": false
+        },
+        {
+          "date": "2026-12-24",
+          "title": "Christmas break begins",
+          "category": "break",
+          "audience": [
+            "all"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2027-01-04",
+          "title": "School re-opens for staff & students",
+          "category": "opening",
+          "audience": [
+            "all"
+          ],
+          "description": "",
+          "featured": true
+        },
+        {
+          "date": "2027-01-07",
+          "title": "Second Quarterly / PT3 / Pre-Board 2 begin",
+          "category": "assessment",
+          "audience": [
+            "all"
+          ],
+          "description": "Nursery–VIII second quarterly; IX & XI PT3; X & XII PB2.",
+          "featured": false
+        },
+        {
+          "date": "2027-01-19",
+          "title": "Second Quarterly / PT3 / Pre-Board 2 end",
+          "category": "assessment",
+          "audience": [
+            "all"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2027-01-30",
+          "title": "PTM-6, STEAM Fest & Literary Fest",
+          "category": "event",
+          "audience": [
+            "parents",
+            "all"
+          ],
+          "description": "",
+          "featured": true
+        },
+        {
+          "date": "2027-02-05",
+          "title": "Class XII Farewell & Kaushal Mela",
+          "category": "event",
+          "audience": [
+            "senior"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2027-02-12",
+          "title": "UKG Graduation Day",
+          "category": "event",
+          "audience": [
+            "pre-primary"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2027-02-18",
+          "title": "Preparatory leave begins",
+          "category": "break",
+          "audience": [
+            "all"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2027-02-23",
+          "title": "Final Assessments begin",
+          "category": "assessment",
+          "audience": [
+            "all"
+          ],
+          "description": "",
+          "featured": true
+        },
+        {
+          "date": "2027-03-11",
+          "title": "Final Assessments end for Nursery–IX & XI",
+          "category": "assessment",
+          "audience": [
+            "all"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2027-03-25",
+          "title": "Report Day",
+          "category": "event",
+          "audience": [
+            "parents",
+            "all"
+          ],
+          "description": "",
+          "featured": true
+        },
+        {
+          "date": "2027-03-29",
+          "title": "Parent Orientation begins",
+          "category": "orientation",
+          "audience": [
+            "parents"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2027-04-07",
+          "title": "School re-opening date for Nursery–X & XII",
+          "category": "opening",
+          "audience": [
+            "all"
+          ],
+          "description": "",
+          "featured": true
+        }
+      ],
+      "holidays": [
+        {
+          "date": "2026-04-03",
+          "title": "Good Friday"
+        },
+        {
+          "date": "2026-04-14",
+          "title": "Ambedkar Jayanti & Baisakhi"
+        },
+        {
+          "date": "2026-05-01",
+          "title": "Maharashtra Day"
+        },
+        {
+          "date": "2026-06-26",
+          "title": "Muharram"
+        },
+        {
+          "date": "2026-08-26",
+          "title": "Eid-e-Milad"
+        },
+        {
+          "date": "2026-08-28",
+          "title": "Raksha Bandhan"
+        },
+        {
+          "date": "2026-09-04",
+          "title": "Janmashtami"
+        },
+        {
+          "date": "2026-09-14",
+          "title": "Shri Ganesh Chaturthi"
+        },
+        {
+          "date": "2026-09-18",
+          "title": "Gauri Pujan"
+        },
+        {
+          "date": "2026-09-25",
+          "title": "Anant Chaturdashi"
+        },
+        {
+          "date": "2026-10-02",
+          "title": "Gandhi Jayanti"
+        },
+        {
+          "date": "2026-10-20",
+          "title": "Dussehra"
+        },
+        {
+          "date": "2026-11-10",
+          "title": "Diwali"
+        },
+        {
+          "date": "2026-11-24",
+          "title": "Guru Nanak Jayanti"
+        },
+        {
+          "date": "2026-12-25",
+          "title": "Christmas"
+        },
+        {
+          "date": "2027-01-01",
+          "title": "New Year"
+        },
+        {
+          "date": "2027-01-15",
+          "title": "Makar Sankranti"
+        },
+        {
+          "date": "2027-01-26",
+          "title": "Republic Day"
+        },
+        {
+          "date": "2027-02-19",
+          "title": "Chhatrapati Shivaji Maharaj Jayanti"
+        },
+        {
+          "date": "2027-03-06",
+          "title": "Maha Shivratri"
+        },
+        {
+          "date": "2027-03-10",
+          "title": "Eid-al-Fitr"
+        },
+        {
+          "date": "2027-03-22",
+          "title": "Holi"
+        },
+        {
+          "date": "2027-03-26",
+          "title": "Good Friday"
+        }
+      ],
+      "breaks": [
+        {
+          "title": "Summer Break",
+          "start": "2026-05-01",
+          "end": "2026-06-09",
+          "status": "official-list"
+        },
+        {
+          "title": "Preparatory Leave – Half-Yearly",
+          "start": "2026-08-26",
+          "end": "2026-08-29",
+          "status": "official-list"
+        },
+        {
+          "title": "Diwali Break",
+          "start": "2026-11-05",
+          "end": "2026-11-14",
+          "status": "official-list"
+        },
+        {
+          "title": "Christmas Break",
+          "start": "2026-12-24",
+          "end": "2027-01-02",
+          "status": "official-list"
+        },
+        {
+          "title": "Preparatory Leave – Annual Assessments",
+          "start": "2027-02-18",
+          "end": "2027-02-20",
+          "status": "official-list"
+        }
+      ],
+      "documents": {
+        "planner": "/assets/docs/academics/kalyani-nagar/academic-planner-2026-27.pdf",
+        "assessment": "/assets/docs/academics/kalyani-nagar/assessment-pattern.pdf",
+        "holiday": "/assets/docs/academics/kalyani-nagar/holiday-list-2026-27.pdf"
+      },
+      "source_notes": [
+        "The supplied holiday list and academic planner contain a conflicting Eid-al-Adha entry; the web summary omits that date pending campus confirmation.",
+        "Where a weekday label in the holiday PDF conflicts with the calendar date, the website displays the date without reproducing the inconsistent weekday label."
+      ],
+      "assessment": {
+        "overview": "Assessment is treated as an integral part of learning, combining written examinations, internal assessment, portfolios, subject enrichment and co-scholastic development.",
+        "groups": [
+          {
+            "key": "i-v",
+            "label": "Classes I–V",
+            "grading": "5-point scholastic grading scale",
+            "term_1": "20 marks Periodic/Quarterly Assessment + 80 marks Half-Yearly Examination",
+            "term_2": "20 marks Periodic/Quarterly Assessment + 80 marks Yearly Examination"
+          },
+          {
+            "key": "vi-ix",
+            "label": "Classes VI–IX",
+            "grading": "8-point scholastic grading scale",
+            "term_1": "20 marks Periodic/Quarterly Assessment + 80 marks Half-Yearly Examination",
+            "term_2": "20 marks Periodic/Quarterly Assessment + 80 marks Yearly Examination"
+          },
+          {
+            "key": "x",
+            "label": "Class X",
+            "grading": "9-point scholastic grading scale",
+            "term_1": "Periodic/Quarterly assessments plus written examination",
+            "term_2": "Pre-Board examinations and CBSE Board examination based on the prescribed syllabus"
+          },
+          {
+            "key": "xi",
+            "label": "Class XI",
+            "grading": "8-point scholastic grading scale",
+            "term_1": "Periodic Test 1 – 50 marks · Periodic Test 2 – 100 marks",
+            "term_2": "Periodic Test 3 – 50 marks · Periodic Test 4 – 100 marks"
+          },
+          {
+            "key": "xii",
+            "label": "Class XII",
+            "grading": "9-point scholastic grading scale",
+            "term_1": "Periodic Test 1 – 50 marks · Periodic Test 2 – 50 marks",
+            "term_2": "Periodic Test 3 – 100 marks · 3 Pre-Board examinations (60/70/80 marks depending on subject)"
+          }
+        ],
+        "internal": [
+          {
+            "label": "Periodic Test",
+            "marks": "5"
+          },
+          {
+            "label": "Multiple Assessments",
+            "marks": "5"
+          },
+          {
+            "label": "Portfolio",
+            "marks": "5"
+          },
+          {
+            "label": "Subject Enrichment",
+            "marks": "5"
+          }
+        ],
+        "portfolio": [
+          {
+            "label": "Regularity",
+            "marks": "2"
+          },
+          {
+            "label": "Punctuality",
+            "marks": "1"
+          },
+          {
+            "label": "Notebook neatness & upkeep",
+            "marks": "2"
+          }
+        ],
+        "enrichment": [
+          "Languages – Speaking & Listening / ASL",
+          "Mathematics – Lab activities & projects",
+          "Science – Practicals, projects & other activities",
+          "Social Science – Maps, projects & models",
+          "ICT / AI – Practicals"
+        ],
+        "co_scholastic": [
+          "Work Education",
+          "Art Education",
+          "Health & Physical Education"
+        ],
+        "senior_co_scholastic": [
+          "Work Education (SEWA)",
+          "Health & Physical Education",
+          "General Studies"
+        ],
+        "discipline": "Attendance, sincerity, behaviour and values are considered in discipline grading."
+      }
+    },
+    "hadapsar": {
+      "name": "The Lexicon School, Hadapsar",
+      "slug": "hadapsar",
+      "academic_year": "2026–27",
+      "intro": "A clearer view of the school year — key dates, assessments, breaks and learning milestones in one responsive campus experience.",
+      "events": [
+        {
+          "date": "2026-04-07",
+          "title": "Parent Orientation – New Admissions Nursery–XII",
+          "category": "orientation",
+          "audience": [
+            "parents"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2026-04-08",
+          "title": "School re-opens for Classes I–XII",
+          "category": "opening",
+          "audience": [
+            "all"
+          ],
+          "description": "Assembly by teachers.",
+          "featured": true
+        },
+        {
+          "date": "2026-04-09",
+          "title": "School re-opens for Nursery, LKG & UKG",
+          "category": "opening",
+          "audience": [
+            "pre-primary"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2026-04-24",
+          "title": "Student Council Election",
+          "category": "event",
+          "audience": [
+            "middle",
+            "senior"
+          ],
+          "description": "",
+          "featured": true
+        },
+        {
+          "date": "2026-04-25",
+          "title": "PTM-1 for PP–XII",
+          "category": "ptm",
+          "audience": [
+            "parents",
+            "all"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2026-04-30",
+          "title": "Last working day before summer break",
+          "category": "break",
+          "audience": [
+            "all"
+          ],
+          "description": "Class party / Bagless Day.",
+          "featured": false
+        },
+        {
+          "date": "2026-05-01",
+          "title": "Summer break begins for students",
+          "category": "break",
+          "audience": [
+            "all"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2026-05-04",
+          "title": "Last working day for teachers",
+          "category": "break",
+          "audience": [
+            "staff"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2026-06-03",
+          "title": "School re-opening for Staff & Admin",
+          "category": "opening",
+          "audience": [
+            "staff"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2026-06-06",
+          "title": "Parent Orientation – New Admissions",
+          "category": "orientation",
+          "audience": [
+            "parents"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2026-06-09",
+          "title": "School re-opens for all Classes",
+          "category": "opening",
+          "audience": [
+            "all"
+          ],
+          "description": "",
+          "featured": true
+        },
+        {
+          "date": "2026-06-20",
+          "title": "Fuel to Fly & PTM-2",
+          "category": "ptm",
+          "audience": [
+            "parents",
+            "all"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2026-07-04",
+          "title": "Academic Excellence Award",
+          "category": "event",
+          "audience": [
+            "all"
+          ],
+          "description": "",
+          "featured": true
+        },
+        {
+          "date": "2026-07-17",
+          "title": "Investiture Ceremony",
+          "category": "event",
+          "audience": [
+            "all"
+          ],
+          "description": "",
+          "featured": true
+        },
+        {
+          "date": "2026-07-27",
+          "title": "FQA / Periodic Test 1 begin",
+          "category": "assessment",
+          "audience": [
+            "all"
+          ],
+          "description": "",
+          "featured": true
+        },
+        {
+          "date": "2026-08-06",
+          "title": "FQA / Periodic Test 1 end",
+          "category": "assessment",
+          "audience": [
+            "all"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2026-08-22",
+          "title": "Youth Football, Sr MUN & PTM-3",
+          "category": "event",
+          "audience": [
+            "parents",
+            "all"
+          ],
+          "description": "",
+          "featured": true
+        },
+        {
+          "date": "2026-09-11",
+          "title": "Lexicon MUN begins",
+          "category": "event",
+          "audience": [
+            "middle",
+            "senior"
+          ],
+          "description": "",
+          "featured": true
+        },
+        {
+          "date": "2026-09-12",
+          "title": "Lexicon MUN continues",
+          "category": "event",
+          "audience": [
+            "middle",
+            "senior"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2026-09-28",
+          "title": "Half-Yearly / PT2 Assessments begin",
+          "category": "assessment",
+          "audience": [
+            "all"
+          ],
+          "description": "",
+          "featured": true
+        },
+        {
+          "date": "2026-10-12",
+          "title": "Half-Yearly / PT2 Assessments end",
+          "category": "assessment",
+          "audience": [
+            "all"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2026-10-24",
+          "title": "Pre-School Football, STEAM Fest & PTM-4",
+          "category": "event",
+          "audience": [
+            "parents",
+            "all"
+          ],
+          "description": "",
+          "featured": true
+        },
+        {
+          "date": "2026-11-05",
+          "title": "Diwali vacation begins for students",
+          "category": "break",
+          "audience": [
+            "all"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2026-11-16",
+          "title": "School re-opens after Diwali vacation",
+          "category": "opening",
+          "audience": [
+            "all"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2026-11-17",
+          "title": "Short Test Series begins for X & XII",
+          "category": "assessment",
+          "audience": [
+            "senior"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2026-11-21",
+          "title": "Youth Parliament & PTM-5 (PP–V)",
+          "category": "event",
+          "audience": [
+            "parents",
+            "all"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2026-11-28",
+          "title": "PTM-5 for VI–IX & XI",
+          "category": "ptm",
+          "audience": [
+            "parents",
+            "middle",
+            "senior"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2026-11-30",
+          "title": "Short Test Series ends",
+          "category": "assessment",
+          "audience": [
+            "senior"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2026-12-02",
+          "title": "Annual Concert",
+          "category": "event",
+          "audience": [
+            "all"
+          ],
+          "description": "",
+          "featured": true
+        },
+        {
+          "date": "2026-12-05",
+          "title": "PTM-5 X & XII and Career Fest",
+          "category": "event",
+          "audience": [
+            "parents",
+            "senior"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2026-12-09",
+          "title": "Pre-Board 1 begins",
+          "category": "assessment",
+          "audience": [
+            "senior"
+          ],
+          "description": "",
+          "featured": true
+        },
+        {
+          "date": "2026-12-19",
+          "title": "Tech Carnival, MI Fest & Kaushal Mela",
+          "category": "event",
+          "audience": [
+            "all"
+          ],
+          "description": "",
+          "featured": true
+        },
+        {
+          "date": "2026-12-22",
+          "title": "Pre-Board 1 ends",
+          "category": "assessment",
+          "audience": [
+            "senior"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2026-12-24",
+          "title": "Christmas break begins",
+          "category": "break",
+          "audience": [
+            "all"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2027-01-04",
+          "title": "School re-opens for PP–XII",
+          "category": "opening",
+          "audience": [
+            "all"
+          ],
+          "description": "",
+          "featured": true
+        },
+        {
+          "date": "2027-01-07",
+          "title": "SQA / PT3 / Pre-Board 2 begin",
+          "category": "assessment",
+          "audience": [
+            "all"
+          ],
+          "description": "",
+          "featured": true
+        },
+        {
+          "date": "2027-01-19",
+          "title": "SQA / PT3 assessments end",
+          "category": "assessment",
+          "audience": [
+            "all"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2027-01-29",
+          "title": "Junior MUN begins",
+          "category": "event",
+          "audience": [
+            "primary",
+            "middle"
+          ],
+          "description": "",
+          "featured": true
+        },
+        {
+          "date": "2027-01-30",
+          "title": "Junior MUN continues",
+          "category": "event",
+          "audience": [
+            "primary",
+            "middle"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2027-02-05",
+          "title": "PTM-7 X & XII and Farewell",
+          "category": "event",
+          "audience": [
+            "parents",
+            "senior"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2027-02-08",
+          "title": "Sports Week begins",
+          "category": "event",
+          "audience": [
+            "all"
+          ],
+          "description": "",
+          "featured": true
+        },
+        {
+          "date": "2027-02-12",
+          "title": "Graduation Day",
+          "category": "event",
+          "audience": [
+            "pre-primary"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2027-02-13",
+          "title": "Annual Sports Day",
+          "category": "event",
+          "audience": [
+            "all"
+          ],
+          "description": "",
+          "featured": true
+        },
+        {
+          "date": "2027-02-18",
+          "title": "Preparatory Leave",
+          "category": "break",
+          "audience": [
+            "all"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2027-02-23",
+          "title": "Final Assessments begin",
+          "category": "assessment",
+          "audience": [
+            "all"
+          ],
+          "description": "",
+          "featured": true
+        },
+        {
+          "date": "2027-03-17",
+          "title": "Final Assessments end for Nursery–IX & XI",
+          "category": "assessment",
+          "audience": [
+            "all"
+          ],
+          "description": "",
+          "featured": false
+        },
+        {
+          "date": "2027-03-25",
+          "title": "Report Day",
+          "category": "event",
+          "audience": [
+            "parents",
+            "all"
+          ],
+          "description": "",
+          "featured": true
+        },
+        {
+          "date": "2027-04-07",
+          "title": "Gudi Padwa",
+          "category": "holiday",
+          "audience": [
+            "all"
+          ],
+          "description": "",
+          "featured": false
+        }
+      ],
+      "holidays": [
+        {
+          "date": "2026-04-03",
+          "title": "Good Friday"
+        },
+        {
+          "date": "2026-04-14",
+          "title": "Ambedkar Jayanti"
+        },
+        {
+          "date": "2026-05-01",
+          "title": "Maharashtra Day / Buddha Purnima"
+        },
+        {
+          "date": "2026-06-26",
+          "title": "Muharram"
+        },
+        {
+          "date": "2026-07-07",
+          "title": "Palkhi (Tentative)"
+        },
+        {
+          "date": "2026-08-26",
+          "title": "Eid-e-Milad"
+        },
+        {
+          "date": "2026-08-28",
+          "title": "Raksha Bandhan"
+        },
+        {
+          "date": "2026-09-04",
+          "title": "Janmashtami"
+        },
+        {
+          "date": "2026-09-14",
+          "title": "Ganesh Chaturthi"
+        },
+        {
+          "date": "2026-09-18",
+          "title": "Gauri Pooja"
+        },
+        {
+          "date": "2026-09-25",
+          "title": "Anant Chaturdashi"
+        },
+        {
+          "date": "2026-10-02",
+          "title": "Gandhi Jayanti"
+        },
+        {
+          "date": "2026-10-20",
+          "title": "Dussehra"
+        },
+        {
+          "date": "2026-11-08",
+          "title": "Diwali"
+        },
+        {
+          "date": "2026-11-11",
+          "title": "Bhaidooj"
+        },
+        {
+          "date": "2026-11-24",
+          "title": "Guru Nanak Jayanti"
+        },
+        {
+          "date": "2026-12-25",
+          "title": "Christmas"
+        },
+        {
+          "date": "2027-01-01",
+          "title": "New Year"
+        },
+        {
+          "date": "2027-01-15",
+          "title": "Makar Sankranti"
+        },
+        {
+          "date": "2027-01-26",
+          "title": "Republic Day"
+        },
+        {
+          "date": "2027-02-19",
+          "title": "Chhatrapati Shivaji Maharaj Jayanti"
+        },
+        {
+          "date": "2027-03-06",
+          "title": "Maha Shivratri"
+        },
+        {
+          "date": "2027-03-10",
+          "title": "Eid-ul-Fitr"
+        },
+        {
+          "date": "2027-03-22",
+          "title": "Holi"
+        },
+        {
+          "date": "2027-03-26",
+          "title": "Good Friday"
+        },
+        {
+          "date": "2027-03-28",
+          "title": "Easter"
+        }
+      ],
+      "breaks": [
+        {
+          "title": "Summer Break",
+          "start": "2026-05-01",
+          "end": "2026-06-08",
+          "status": "official-list"
+        },
+        {
+          "title": "Short Break",
+          "start": "2026-08-26",
+          "end": "2026-08-30",
+          "status": "official-list"
+        },
+        {
+          "title": "Diwali Break",
+          "start": "2026-11-05",
+          "end": "2026-11-15",
+          "status": "official-list"
+        },
+        {
+          "title": "Christmas Break",
+          "start": "2026-12-24",
+          "end": "2027-01-05",
+          "status": "official-list"
+        },
+        {
+          "title": "Preparatory Leave",
+          "start": "2027-02-18",
+          "end": "2027-02-18",
+          "status": "official-list"
+        }
+      ],
+      "documents": {
+        "planner": "/assets/docs/academics/hadapsar/academic-planner-2026-27.pdf",
+        "assessment": "/assets/docs/academics/hadapsar/assessment-pattern.pdf",
+        "holiday": "/assets/docs/academics/hadapsar/holiday-list-2026-27.pdf"
+      },
+      "source_notes": [
+        "The academic planner and holiday list contain different Eid-al-Adha dates; the web summary omits that date pending campus confirmation.",
+        "The academic planner is treated as the primary source for day-to-day activity sequencing; the holiday PDF remains downloadable as an official source document."
+      ],
+      "assessment": {
+        "overview": "Hadapsar describes assessment as an integral part of learning and teaching, combining scholastic achievement, co-scholastic areas and discipline.",
+        "groups": [
+          {
+            "key": "i-v",
+            "label": "Classes I–V",
+            "grading": "5-point scholastic grading scale",
+            "term_1": "20 marks Periodic/Quarterly Assessment + 80 marks Half-Yearly Exam",
+            "term_2": "20 marks Periodic/Quarterly Assessment + 80 marks Yearly Exam"
+          },
+          {
+            "key": "vi-ix",
+            "label": "Classes VI–IX",
+            "grading": "8-point scholastic grading scale",
+            "term_1": "20 marks Periodic/Quarterly Assessment + 80 marks Half-Yearly Exam",
+            "term_2": "20 marks Periodic/Quarterly Assessment + 80 marks Yearly Exam"
+          },
+          {
+            "key": "x",
+            "label": "Class X",
+            "grading": "9-point scholastic grading scale",
+            "term_1": "Internal assessment plus written examination",
+            "term_2": "100% of first and second term syllabus as published by the campus"
+          },
+          {
+            "key": "xi-xii",
+            "label": "Classes XI–XII",
+            "grading": "Senior Secondary assessment",
+            "term_1": "Periodic 1 – 50 marks · Periodic 2 – 100 marks",
+            "term_2": "Periodic 3 – 50 marks · Finals – 100 marks"
+          }
+        ],
+        "internal": [
+          {
+            "label": "Periodic/Quarterly Assessment",
+            "marks": "5"
+          },
+          {
+            "label": "Multiple Assessments",
+            "marks": "5"
+          },
+          {
+            "label": "Portfolio",
+            "marks": "5"
+          },
+          {
+            "label": "Subject Enrichment",
+            "marks": "5"
+          }
+        ],
+        "portfolio": [
+          {
+            "label": "Regularity",
+            "marks": "2"
+          },
+          {
+            "label": "Punctuality",
+            "marks": "1"
+          },
+          {
+            "label": "Notebook neatness & upkeep",
+            "marks": "2"
+          }
+        ],
+        "enrichment": [
+          "Languages – Speaking & Listening Activities (ASL)",
+          "Mathematics – Lab Activities & Projects",
+          "Science – Practicals, Projects & Other Activities",
+          "Social Science – Maps, Projects & Models"
+        ],
+        "co_scholastic": [
+          "Work Education",
+          "Art Education",
+          "Health & Physical Education"
+        ],
+        "senior_co_scholastic": [
+          "Work Education",
+          "Health & Physical Education",
+          "General Studies"
+        ],
+        "discipline": "Attendance, sincerity, behaviour and values are basic discipline criteria. Students are graded for discipline on a 5-point scale (A–E).",
+        "promotion": "Promotion requires at least 33% in Written and Internal Assessments individually.",
+        "grading_tables": {
+          "i-v": [
+            {
+              "range": "90–100",
+              "grade": "A+",
+              "label": "Outstanding"
+            },
+            {
+              "range": "75–89",
+              "grade": "A",
+              "label": "Excellent"
+            },
+            {
+              "range": "56–74",
+              "grade": "B",
+              "label": "Very Good"
+            },
+            {
+              "range": "34–55",
+              "grade": "C",
+              "label": "Good"
+            },
+            {
+              "range": "0–33",
+              "grade": "D",
+              "label": "Scope for Improvement"
+            }
+          ],
+          "vi-ix": [
+            {
+              "range": "91–100",
+              "grade": "A1"
+            },
+            {
+              "range": "81–90",
+              "grade": "A2"
+            },
+            {
+              "range": "71–80",
+              "grade": "B1"
+            },
+            {
+              "range": "61–70",
+              "grade": "B2"
+            },
+            {
+              "range": "51–60",
+              "grade": "C1"
+            },
+            {
+              "range": "41–50",
+              "grade": "C2"
+            },
+            {
+              "range": "33–40",
+              "grade": "D"
+            },
+            {
+              "range": "0–32",
+              "grade": "E"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
