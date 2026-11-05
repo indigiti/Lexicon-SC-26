@@ -17,7 +17,40 @@
     "admissionPage": "https://wagholi.lexiconedu.in/admission/",
     "applyUrl": "https://wagholi.lexiconedu.in/admission/",
     "applicationNote": "Official Wagholi admissions page and application form",
-    "udise": "27250508634"
+    "udise": "27250508634",
+    "email": "office_wgh@lexiconedu.in",
+    "contactPhones": [
+      {
+        "label": "Mobile",
+        "display": "+91 93709 03591",
+        "href": "+919370903591"
+      },
+      {
+        "label": "Mobile",
+        "display": "+91 80073 63070",
+        "href": "+918007363070"
+      },
+      {
+        "label": "Mobile",
+        "display": "+91 95294 32208",
+        "href": "+919529432208"
+      }
+    ],
+    "contactEmails": [
+      {
+        "label": "School email",
+        "address": "ptlis@lexiconedu.in"
+      },
+      {
+        "label": "Office",
+        "address": "office_wgh@lexiconedu.in"
+      },
+      {
+        "label": "General enquiries",
+        "address": "info@lexiconedu.in"
+      }
+    ],
+    "landmark": "Pune–Nagar Road, Wagholi"
   },
   {
     "slug": "kalyani-nagar",
@@ -27,7 +60,7 @@
     "grades": "Nursery – Grade XII",
     "affiliation": "1130609",
     "image": "/assets/images/campuses/campus-kalyani.webp",
-    "address": "S No. 212/1, Central Avenue, Plot 59, Opp. Indian Bank, Kalyani Nagar, Pune, Maharashtra 411006",
+    "address": "S No. 212/1, Plot No. 59, Central Avenue, Kalyani Nagar, Pune, Maharashtra 411006",
     "phone": "+91 84128 29287",
     "phoneHref": "+918412829287",
     "website": "https://kalyaninagar.lexiconedu.in/",
@@ -37,7 +70,34 @@
     "admissionPage": "https://kalyaninagar.lexiconedu.in/admission/",
     "applyUrl": "https://entab.online/R-TLISKLN",
     "applicationNote": "Official EnTab application portal",
-    "udise": "27251500113"
+    "udise": "27251500113",
+    "email": "admin_kln@lexiconedu.in",
+    "contactPhones": [
+      {
+        "label": "Mobile",
+        "display": "+91 84128 29287",
+        "href": "+918412829287"
+      },
+      {
+        "label": "Landline",
+        "display": "+91 20 2665 5812",
+        "href": "+912026655812"
+      }
+    ],
+    "contactEmails": [
+      {
+        "label": "School email",
+        "address": "principal_kln@lexiconedu.in"
+      },
+      {
+        "label": "Administration",
+        "address": "admin_kln@lexiconedu.in"
+      },
+      {
+        "label": "General enquiries",
+        "address": "info@lexiconedu.in"
+      }
+    ]
   },
   {
     "slug": "hadapsar",
@@ -47,7 +107,7 @@
     "grades": "Nursery – Grade XII",
     "affiliation": "1130583",
     "image": "/assets/images/campuses/campus-hadapsar.webp",
-    "address": "Survey No. 208, Pune–Saswad Road, next to SP Infocity, Hadapsar, Phursungi, Pune, Maharashtra 412308",
+    "address": "Survey No. 208, Pune–Saswad Road, next to SP Infocity, Satavwadi, Hadapsar, Phursungi, Pune, Maharashtra 412308",
     "phone": "+91 95523 15075",
     "phoneHref": "+919552315075",
     "website": "https://hadapsar.lexiconedu.in/",
@@ -57,6 +117,28 @@
     "admissionPage": "https://hadapsar.lexiconedu.in/",
     "applyUrl": "https://hadapsar.lexiconedu.in/",
     "applicationNote": "Official Hadapsar school site — use the current Admissions / Apply Now option",
-    "udise": "27250501934"
+    "udise": "27250501934",
+    "email": "admintls@lexiconedu.in",
+    "contactPhones": [
+      {
+        "label": "Mobile",
+        "display": "+91 95523 15075",
+        "href": "+919552315075"
+      }
+    ],
+    "contactEmails": [
+      {
+        "label": "School email",
+        "address": "hmtls@lexiconedu.in"
+      },
+      {
+        "label": "Administration",
+        "address": "admintls@lexiconedu.in"
+      },
+      {
+        "label": "General enquiries",
+        "address": "info@lexiconedu.in"
+      }
+    ]
   }
 ]
