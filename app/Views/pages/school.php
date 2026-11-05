@@ -8,6 +8,7 @@ foreach ($schools as $candidate) {
 }
 $school ??= [];
 $q = urlencode((string)($school['mapQuery'] ?? $campus['name'] ?? 'The Lexicon Schools Pune'));
+$galleryItems=content('campus-galleries')[$schoolSlug] ?? [];
 $transportData = content('transport');
 $transportCampus = $transportData['campuses'][$schoolSlug] ?? [];
 $transportRoutes = (int)($transportCampus['route_count'] ?? 0);
@@ -76,7 +77,18 @@ $academicFmt = static function(string $date,string $format='d M'): string { try 
     <div class="school-facility-grid"><?php foreach (($campus['facilities'] ?? []) as $facility): ?><article><strong><?= e($facility['value'] ?? '') ?></strong><h3><?= e($facility['label'] ?? '') ?></h3><p><?= e($facility['detail'] ?? '') ?></p></article><?php endforeach; ?></div>
   </div>
   <div class="school-campus-visual"><img src="<?= e($campus['image'] ?? '') ?>" alt="Campus facilities at <?= e($campus['short'] ?? '') ?>" loading="lazy"><div class="campus-address-card"><span>Campus Address</span><address><?= e($school['address'] ?? '') ?></address><?php if (!empty($school['phone'])): ?><a href="tel:<?= e($school['phoneHref'] ?? '') ?>"><?= e($school['phone']) ?></a><?php endif; ?></div></div>
+
 </div></section>
+
+<?php if (!empty($galleryItems)): ?>
+<section class="campus-gallery-section" id="gallery"><div class="container">
+  <div class="section-head-row"><div><div class="eyebrow">Campus Gallery</div><h2 class="section-title">Explore <?= e($school['short'] ?? 'our school') ?>.</h2></div></div>
+  <div class="campus-gallery-grid"><?php foreach ($galleryItems as $item): if (empty($item['image']) || empty($item['approved'])) continue; ?>
+    <figure><img src="<?= e($item['image']) ?>" alt="<?= e($item['alt'] ?? 'Campus view') ?>" loading="lazy" decoding="async"><figcaption><?= e($item['caption'] ?? '') ?></figcaption></figure>
+  <?php endforeach; ?></div>
+  <p class="campus-gallery-note">Additional facility and activity photographs will be added after school review and image approval.</p>
+</div></section>
+<?php endif; ?>
 
 <section class="school-transport" id="transport"><div class="container school-transport-grid">
   <div><div class="eyebrow">Transport &amp; Commute · 2026–27</div><h2 class="section-title">Check whether a current route serves your area.</h2><p>Search the sanitized campus transport directory by locality, society or stop name. Route and stop availability remains subject to operational confirmation by the school transport team.</p><div class="school-transport-stats"><div><strong><?= e($transportRoutes) ?></strong><span>Routes</span></div><div><strong><?= e($transportStops) ?></strong><span>Stops</span></div></div><div class="card-actions"><a class="btn btn-lexicon" href="/schools/<?= e($schoolSlug) ?>/transport">Find My Stop →</a><a class="btn btn-outline-lexicon" href="/enquire?campus=<?= e($schoolSlug) ?>&amp;reason=transport">Ask About Transport</a></div></div>

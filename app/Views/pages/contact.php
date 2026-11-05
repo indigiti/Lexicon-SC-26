@@ -11,7 +11,7 @@
     <label>Parent / Guardian name<input name="parent_name" autocomplete="name" required></label>
     <label>Phone<input name="phone" autocomplete="tel" inputmode="tel" required></label>
     <label>Email<input name="email" type="email" autocomplete="email"></label>
-    <label>Campus<select name="campus"><option value="">Choose a campus</option><?php foreach($schools as $school): ?><option><?= e($school['short']) ?></option><?php endforeach; ?></select></label>
+    <label>Campus<select name="campus"><option value="">Choose a campus</option><?php foreach($schools as $school): ?><option value="<?= e($school['slug']) ?>"><?= e($school['short']) ?></option><?php endforeach; ?></select></label>
     <label>Grade<input name="grade" placeholder="e.g. Grade I"></label>
     <label>Reason<select name="reason"><option>Admissions enquiry</option><option>Book a campus visit</option><option>General information</option><option>Alumni network</option><option>Careers</option></select></label>
     <label class="full">Message<textarea name="message" placeholder="Tell us about your enquiry"></textarea></label>

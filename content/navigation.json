@@ -158,7 +158,7 @@
     "href": "/alumni",
     "items": [
       {
-        "label": "Meet Our Alumni",
+        "label": "Alumni Interviews & Stories",
         "href": "/alumni#stories"
       },
       {
@@ -194,6 +194,10 @@
       {
         "label": "School Contacts",
         "href": "/contact#schools"
+      },
+      {
+        "label": "Careers",
+        "href": "/careers"
       }
     ]
   }

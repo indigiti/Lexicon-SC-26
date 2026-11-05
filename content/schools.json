@@ -16,7 +16,8 @@
     "mapQuery": "The Lexicon International School Wagholi Pune",
     "admissionPage": "https://wagholi.lexiconedu.in/admission/",
     "applyUrl": "https://wagholi.lexiconedu.in/admission/",
-    "applicationNote": "Official Wagholi admissions page and application form"
+    "applicationNote": "Official Wagholi admissions page and application form",
+    "udise": "27250508634"
   },
   {
     "slug": "kalyani-nagar",
@@ -35,7 +36,8 @@
     "mapQuery": "The Lexicon International School Kalyani Nagar Pune",
     "admissionPage": "https://kalyaninagar.lexiconedu.in/admission/",
     "applyUrl": "https://entab.online/R-TLISKLN",
-    "applicationNote": "Official EnTab application portal"
+    "applicationNote": "Official EnTab application portal",
+    "udise": "27251500113"
   },
   {
     "slug": "hadapsar",
@@ -54,6 +56,7 @@
     "mapQuery": "The Lexicon School Hadapsar Pune",
     "admissionPage": "https://hadapsar.lexiconedu.in/",
     "applyUrl": "https://hadapsar.lexiconedu.in/",
-    "applicationNote": "Official Hadapsar school site — use the current Admissions / Apply Now option"
+    "applicationNote": "Official Hadapsar school site — use the current Admissions / Apply Now option",
+    "udise": "27250501934"
   }
 ]

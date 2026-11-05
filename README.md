@@ -113,3 +113,33 @@ Extract the deployment ZIP directly into the directory mapped to:
 `https://lexicon.digiti.in/v/0.4.0/`
 
 Do not create an additional nested release directory.
+
+## Team website review (pending PR #1)
+
+The pending team-review branch adds:
+
+- Full campus names, CBSE affiliation codes, UDISE numbers, and verified milestone dates.
+- Parent-feedback photo treatments using **campus photos, not invented reviewer portraits**.
+- Data-backed admissions comparison with links to authoritative campus sources; removes unsupported school strength, ratio, stream and travel-time claims.
+- Editable admissions imagery and copy in `content/admissions-banner.json` (Git-managed editing; **not** a browser CMS).
+- Campus gallery entries in `content/campus-galleries.json`; only approved assets are rendered.
+- Opt-in school song in `content/school-song.json`, disabled until lyrics or an official YouTube URL are supplied.
+- Alumni profiles in `content/alumni-profiles.json`, rendered only with `approved: true`, `consent_confirmed: true`, and a non-empty transcript. The LinkedIn group button requires a verified group URL.
+- Existing-parent ERP chooser at `/parent-portal`. Set a vetted HTTPS `erpUrl` in each campus entry in `content/schools.json` before login buttons are offered. The website never collects ERP credentials.
+- Enquiry records validated against school slugs and tagged with `route_campus`; no automatic delivery to campus systems or central CRM is claimed.
+- Careers entry under the Contact menu, and parent feedback on Achievements.
+- Automated PR review syntax, JSON, compiled asset and route checks.
+
+### School-confirmation / integration blockers
+
+1. Supply current ERP portal URLs from each campus administrator (do not guess them).
+2. Confirm school email addresses, opening hours, fees, grade-wise concessions and transport arrangements before public publication.
+3. Supply approved photographs for labs, buses, library, grounds, auditorium, classrooms, educators and staff for each **specific** campus. Do not interchange campuses or claim an unverified photo shows a specific facility.
+4. Provide source references, dates, and authorised imagery for MI FEST, Fuel to Fly, Kiran Bedi's visit and student-authored books before publishing as verified highlights. See `content/editorial-queue.json`.
+5. Obtain reviewer attribution and permission for testimonial portraits and for reuse in advertisements; campus pictures are merely illustrations.
+6. Provide the approved official school song lyrics and/or verified YouTube link.
+7. Provide verified alumni interviews, consented photos, transcripts, and official LinkedIn group URL.
+8. To send leads automatically to individual schools and grant central staff controlled access, integrate authenticated sCRM tenant routing, an outbound queue, delivery acknowledgements and campus-specific RBAC. The current JSON/NDJSON website storage is **not** an email or CRM distribution service.
+
+The campus mandatory disclosure repository and mandatory legal links remain available. Only the promotional About-page disclosure card was removed.
+

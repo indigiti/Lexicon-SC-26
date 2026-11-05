@@ -1,0 +1,26 @@
+{
+  "wagholi": [
+    {
+      "image": "/assets/images/campuses/campus-wagholi.webp",
+      "alt": "Wagholi campus overview",
+      "caption": "Campus overview",
+      "approved": true
+    }
+  ],
+  "kalyani-nagar": [
+    {
+      "image": "/assets/images/campuses/campus-kalyani.webp",
+      "alt": "Kalyani Nagar campus overview",
+      "caption": "Campus overview",
+      "approved": true
+    }
+  ],
+  "hadapsar": [
+    {
+      "image": "/assets/images/campuses/campus-hadapsar.webp",
+      "alt": "Hadapsar campus overview",
+      "caption": "Campus overview",
+      "approved": true
+    }
+  ]
+}

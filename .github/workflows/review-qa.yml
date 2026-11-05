@@ -1,0 +1,45 @@
+name: Lexicon Review QA
+on:
+  pull_request:
+  push:
+    branches: [main, 'fix/**']
+jobs:
+  lint-and-smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.4'
+      - name: PHP syntax check
+        run: |
+          find app public -type f -name '*.php' -print0 | xargs -0 -n1 php -l
+          php -l index.php
+      - name: Validate JSON content
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          for p in Path("content").glob("*.json"):
+              json.loads(p.read_text(encoding="utf-8"))
+          schools=json.loads(Path("content/schools.json").read_text())
+          assert len(schools)==3
+          assert {s['slug'] for s in schools} == {'wagholi','kalyani-nagar','hadapsar'}
+          assert all(s.get('affiliation','').isdigit() and s.get('udise','').isdigit() for s in schools)
+          PY
+      - name: JavaScript syntax & asset parity
+        run: |
+          node --check public/build/assets/app.js
+          diff -q build/assets/app.css public/build/assets/app.css
+          diff -q build/assets/app.js public/build/assets/app.js
+      - name: HTTP route smoke tests
+        run: |
+          php -S 127.0.0.1:8765 -t public public/router.php > /tmp/lexicon-server.log 2>&1 &
+          SERVER_PID=$!
+          trap 'kill "$SERVER_PID" 2>/dev/null || true' EXIT
+          for i in $(seq 1 15); do curl --fail --silent http://127.0.0.1:8765/api/health >/dev/null && break; sleep 1; done
+          for path in / /about /admissions /achievements /alumni /parent-portal /schools/wagholi /schools/kalyani-nagar /schools/hadapsar /contact /careers; do
+            curl --fail --silent --show-error "http://127.0.0.1:8765${path}" -o /tmp/lexicon-page.html
+            grep -q '</html>' /tmp/lexicon-page.html
+          done
