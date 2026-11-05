@@ -5,7 +5,7 @@
       <div class="eyebrow">The Lexicon Alumni Network</div>
       <h1>Once a Lexiconite.<br>Always part of the story.</h1>
       <p>School may be where the journey begins, but the Lexicon community travels with you. Reconnect with your campus, share where life has taken you and help inspire the generations that follow.</p>
-      <div class="hero-actions"><a class="btn btn-lexicon" href="#join">Join the Alumni Network ↗</a><a class="btn btn-outline-lexicon" href="#stories">Explore Alumni Stories</a></div>
+      <div class="hero-actions"><a class="btn btn-lexicon" href="#join">Join the Alumni Network ↗</a><a class="btn btn-outline-lexicon" href="#stories">Alumni Interviews &amp; Stories</a></div>
     </div>
     <div class="alumni-campus-mosaic" aria-label="The three Lexicon school communities">
       <figure class="alumni-campus-feature"><img src="/assets/images/campuses/campus-wagholi.webp" alt="The Lexicon International School, Wagholi campus"><figcaption>Wagholi</figcaption></figure>
@@ -15,21 +15,27 @@
   </div>
 </section>
 
-<nav class="section-jump" aria-label="Alumni sections"><div class="container"><a href="#stories">Meet Our Alumni</a><a href="#network">Stay Connected</a><a href="#give-back">Give Back</a><a href="#join">Join the Network</a></div></nav>
+<nav class="section-jump" aria-label="Alumni sections"><div class="container"><a href="#stories">Interviews &amp; Stories</a><a href="#network">Stay Connected</a><a href="#give-back">Give Back</a><a href="#join">Join the Network</a></div></nav>
 
+<?php $alumniContent=content('alumni-profiles'); $profiles=array_values(array_filter($alumniContent['profiles'] ?? [],static fn($p): bool => is_array($p) && !empty($p['approved']) && !empty($p['consent_confirmed']) && !empty($p['name']) && !empty($p['transcript']))); ?>
 <section class="story-section" id="stories"><div class="container">
-  <div class="section-head-row"><div><div class="eyebrow">Meet Our Alumni</div><h2 class="section-title">Every journey becomes part of a larger story.</h2></div><p class="section-intro">We are building a verified alumni story library spanning higher education, entrepreneurship, the professions, creative work, public service and community leadership.</p></div>
-  <div class="alumni-path-grid">
-    <article><span>01</span><h3>Higher Education</h3><p>Share the universities, programmes, research and learning experiences that became your next chapter.</p></article>
-    <article><span>02</span><h3>Professional Journeys</h3><p>Tell current students how school experiences translated into skills, confidence and career choices.</p></article>
-    <article><span>03</span><h3>Entrepreneurship &amp; Creativity</h3><p>Show how ideas grew into ventures, creative practice, technology, design, leadership and impact.</p></article>
-    <article><span>04</span><h3>Community &amp; Service</h3><p>Celebrate Lexiconites contributing through civic work, volunteering, mentoring and social initiatives.</p></article>
+ <div class="section-head-row"><div><div class="eyebrow">Alumni Voices</div><h2 class="section-title">Their journeys, in their own words.</h2></div><p class="section-intro">School-approved alumni interview transcripts, portraits and testimonials will appear here once verified and consented for publication.</p></div>
+ <?php if ($profiles): ?><div class="alumni-interview-grid">
+ <?php foreach($profiles as $profile): ?>
+ <article class="alumni-interview-card">
+  <?php if (!empty($profile['image'])): ?><img src="<?= e($profile['image']) ?>" alt="<?= e($profile['name']) ?> (approved alumni photo)" loading="lazy"><?php endif; ?>
+  <div><span><?= e($profile['campus'] ?? 'Lexicon Alumni') ?></span><h3><?= e($profile['name']) ?></h3>
+  <?php if (!empty($profile['summary'])): ?><p><?= e($profile['summary']) ?></p><?php endif; ?>
+  <details><summary>Read interview transcript</summary><p><?= nl2br(e($profile['transcript'])) ?></p></details>
+  <?php $videoUrl=(string)($profile['video_url'] ?? ''); if (preg_match('~^https://(?:www\.)?(?:youtube\.com/watch\?v=|youtu\.be/)~',$videoUrl)): ?><a href="<?= e($videoUrl) ?>" target="_blank" rel="noopener noreferrer">Watch interview ↗</a><?php endif; ?>
   </div>
-  <div class="verification-note"><b>Alumni stories will be published only after verification.</b><span>This keeps names, qualifications, photographs and current roles accurate and consent-led.</span></div>
+ </article>
+ <?php endforeach; ?>
+ </div><?php else: ?><div class="verification-note"><b>Alumni interviews are being prepared.</b><span>We will publish only school-approved stories, images and transcripts after the alumni confirm permission.</span></div><?php endif; ?>
 </div></section>
 
 <section class="alumni-network-section" id="network"><div class="container two-col-feature">
-  <div class="two-col-copy"><div class="eyebrow">The Network</div><h2>Reconnect with the people and places that shaped you.</h2><p>Stay close to school milestones, alumni meets, mentoring opportunities, campus events and stories from across the wider Lexicon community.</p><ul class="feature-list"><li>Alumni meet-ups and school reunions</li><li>Campus news and milestone invitations</li><li>Mentoring and career conversations with students</li><li>Speaker, panel and workshop opportunities</li></ul><a class="text-link" href="#join">Update your alumni profile →</a></div>
+  <div class="two-col-copy"><div class="eyebrow">The Network</div><h2>Reconnect with the people and places that shaped you.</h2><p>Stay close to school milestones, alumni meets, mentoring opportunities, campus events and stories from across the wider Lexicon community.</p><ul class="feature-list"><li>Alumni meet-ups and school reunions</li><li>Campus news and milestone invitations</li><li>Mentoring and career conversations with students</li><li>Speaker, panel and workshop opportunities</li></ul><a class="text-link" href="#join">Update your alumni profile →</a><?php $alumniGroup=(string)($alumniContent['linkedin_group_url'] ?? ''); if(preg_match('~^https://(?:www\\.)?linkedin\\.com/groups/\\d+~',$alumniGroup)): ?><a class="text-link" href="<?= e($alumniGroup) ?>" target="_blank" rel="noopener noreferrer">Join the official LinkedIn alumni group ↗</a><?php endif; ?></div>
   <div class="campus-ribbon"><?php foreach($schools as $school): ?><a href="/schools/<?= e($school['slug']) ?>"><img src="<?= e($school['image']) ?>" alt="<?= e($school['name']) ?>"><span><?= e($school['short']) ?></span></a><?php endforeach; ?></div>
 </div></section>
 
