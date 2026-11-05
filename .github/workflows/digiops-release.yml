@@ -51,6 +51,9 @@ jobs:
           node --check public/build/assets/app.js
           cmp build/assets/app.css public/build/assets/app.css
           cmp build/assets/app.js public/build/assets/app.js
+          test -s public/assets/styles/apply-now-premium.css
+          test -s public/assets/scripts/apply-now-premium.js
+          node --check public/assets/scripts/apply-now-premium.js
       - name: Verify campus contact directories
         run: php tools/check-campus-contacts.php
       - name: Prepare DigiOps release
@@ -77,10 +80,16 @@ jobs:
           done
           test "$ready" -eq 1 || { cat "$tmp/php.log"; exit 1; }
           grep -q '"ok":true' "$tmp/health.json"
-          for route in / /admissions /about /schools/wagholi /parent-portal /enquire /achievements; do
+          for route in / /admissions /apply-now /about /schools/wagholi /parent-portal /enquire /achievements; do
             curl -fsS "http://127.0.0.1:8765/lexiconschoolgroup${route}" > "$tmp/page.html"
             grep -q '</html>' "$tmp/page.html"
           done
+          curl -fsS http://127.0.0.1:8765/lexiconschoolgroup/apply-now > "$tmp/apply-now.html"
+          grep -q 'Explore Schools' "$tmp/apply-now.html"
+          grep -q 'Continue to Official Site' "$tmp/apply-now.html"
+          grep -q '/lexiconschoolgroup/assets/styles/apply-now-premium.css' "$tmp/apply-now.html"
+          curl -fsS http://127.0.0.1:8765/lexiconschoolgroup/assets/styles/apply-now-premium.css > /dev/null
+          curl -fsS http://127.0.0.1:8765/lexiconschoolgroup/assets/scripts/apply-now-premium.js > /dev/null
           curl -fsS http://127.0.0.1:8765/lexiconschoolgroup/build/assets/app.js > /dev/null
           echo "PHP staging path and split-root smoke test passed"
       - name: Upload DigiOps deployable artifact
