@@ -194,6 +194,10 @@
       {
         "label": "School Contacts",
         "href": "/contact#schools"
+      },
+      {
+        "label": "Careers",
+        "href": "/careers"
       }
     ]
   }
