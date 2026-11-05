@@ -1025,3 +1025,24 @@ html.menu-open body.page,html.menu-open body.home-page{overflow:hidden!important
 .campus-contact-links a:focus-visible,.campus-contact-emails a:focus-visible,.comparison-contact-list a:focus-visible{outline:2px solid #245cce;outline-offset:3px;border-radius:2px}
 @media(max-width:900px){.map-campus-card{grid-template-columns:1fr}.map-campus-card .map-frame{min-height:280px}.map-campus-card .map-frame iframe{min-height:280px}}
 @media(max-width:560px){.campus-contact-email{display:block}.campus-contact-email span{display:block}.campus-contact-links{display:grid;grid-template-columns:1fr 1fr;gap:8px}.campus-contact-links a{font-size:11px}}
+
+/* School-approved campus entrance photography: never stretch these compact source images into full-page hero backgrounds. */
+.home-page .school-card-link img,
+.page-admissions .school-card img,
+.page-about .school-card img,
+.admissions-page .school-card img{
+  display:block;
+  width:100%;
+  height:auto;
+  aspect-ratio:2.08/1;
+  object-fit:cover;
+  object-position:center 40%;
+  image-rendering:auto;
+}
+.campus-gallery-section img{object-position:center 40%}
+@media(max-width:620px){
+  .home-page .school-card-link img,
+  .page-admissions .school-card img,
+  .page-about .school-card img,
+  .admissions-page .school-card img{aspect-ratio:2.04/1}
+}
