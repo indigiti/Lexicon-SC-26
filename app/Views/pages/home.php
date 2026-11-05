@@ -6,7 +6,7 @@
   <?php foreach (content('schools') as $school): ?>
     <div class="col col-4">
       <a class="school-card school-card-link" href="/schools/<?= e($school['slug']) ?>" aria-label="Explore <?= e($school['name']) ?>">
-        <img src="<?= e($school['image']) ?>" alt="<?= e($school['name']) ?> campus" width="948" height="376" loading="lazy" decoding="async">
+        <img src="<?= e($school['cardImage'] ?? $school['image']) ?>" alt="<?= e($school['name']) ?> main entrance" width="320" height="158" loading="lazy" decoding="async">
         <div class="school-card-body"><div>
           <h3><?= e($school['name']) ?></h3>
           <p><?= e($school['grades']) ?> · <?= e($school['board']) ?></p>
@@ -20,13 +20,13 @@
 </div></section>
 <section class="impact-section" id="impact"><div class="container-xl"><div class="row align-center"><div class="col col-5"><img alt="Student writing at a desk" class="impact-image" decoding="async" height="591" src="/assets/images/home/impact-student.webp" width="1008"/></div><div class="col col-7 impact-copy"><div class="section-label">Our Impact</div><h2>Learning that<br/>evolves with every child.</h2><p>From early years to senior school, we meet children where they are and help them grow into confident, compassionate and capable individuals — ready for the future.</p></div></div><div class="stage-grid"><div><b>Early Years</b><span>Belong · Explore · Express</span></div><div><b>Primary</b><span>Foundation · Curiosity · Confidence</span></div><div><b>Middle School</b><span>Connect · Question · Create</span></div><div><b>Senior School</b><span>Lead · Innovate · Make an Impact</span></div></div></div></section><section class="testimonial-section" id="voices"><div class="container-xl testimonial-grid"><div><div class="section-label">Parent Voices</div><h2>What families<br/>notice.</h2><p>Real experiences from parents across our school communities.</p></div><div class="quotes-wrap">
   <article class="quote-card review-card">
-    <img class="review-card-photo" src="/assets/images/campuses/campus-wagholi.webp" alt="The Lexicon International School, Wagholi campus" loading="lazy">
+    <img class="review-card-photo" src="/assets/images/campuses/campus-wagholi-actual.webp" alt="The Lexicon International School, Wagholi entrance" loading="lazy">
     <div class="quote-mark" aria-hidden="true">“</div>
     <p>Excellent school with focus on studies and curricular activities as well. C2B is the best program for child’s development.</p>
     <span>Parent feedback<br><small>Photo: Wagholi campus, not the reviewer</small></span>
   </article>
   <article class="quote-card review-card">
-    <img class="review-card-photo" src="/assets/images/campuses/campus-hadapsar.webp" alt="The Lexicon School, Hadapsar campus" loading="lazy">
+    <img class="review-card-photo" src="/assets/images/campuses/campus-hadapsar-actual.webp" alt="The Lexicon School, Hadapsar entrance" loading="lazy">
     <div class="quote-mark" aria-hidden="true">“</div>
     <p>The teachers are caring and supportive. The school focuses on the overall development and wellbeing of the child.</p>
     <span>Parent feedback<br><small>Photo: Hadapsar campus, not the reviewer</small></span>
