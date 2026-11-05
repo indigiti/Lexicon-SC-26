@@ -54,6 +54,8 @@ jobs:
           test -s public/assets/styles/apply-now-premium.css
           test -s public/assets/scripts/apply-now-premium.js
           node --check public/assets/scripts/apply-now-premium.js
+      - name: Verify campus photo assets
+        run: php tools/check-campus-images.php
       - name: Verify campus contact directories
         run: php tools/check-campus-contacts.php
       - name: Prepare DigiOps release

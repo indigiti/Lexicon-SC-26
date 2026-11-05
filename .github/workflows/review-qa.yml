@@ -28,6 +28,8 @@ jobs:
           assert {s['slug'] for s in schools} == {'wagholi','kalyani-nagar','hadapsar'}
           assert all(s.get('affiliation','').isdigit() and s.get('udise','').isdigit() for s in schools)
           PY
+      - name: Verify campus photo assets
+        run: php tools/check-campus-images.php
       - name: Verify campus contact directories
         run: php tools/check-campus-contacts.php
       - name: JavaScript syntax & asset parity

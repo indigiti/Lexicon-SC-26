@@ -50,7 +50,8 @@
         "address": "info@lexiconedu.in"
       }
     ],
-    "landmark": "Pune–Nagar Road, Wagholi"
+    "landmark": "Pune–Nagar Road, Wagholi",
+    "cardImage": "/assets/images/campuses/campus-wagholi-actual.webp"
   },
   {
     "slug": "kalyani-nagar",
@@ -97,7 +98,8 @@
         "label": "General enquiries",
         "address": "info@lexiconedu.in"
       }
-    ]
+    ],
+    "cardImage": "/assets/images/campuses/campus-kalyani-actual.webp"
   },
   {
     "slug": "hadapsar",
@@ -139,6 +141,7 @@
         "label": "General enquiries",
         "address": "info@lexiconedu.in"
       }
-    ]
+    ],
+    "cardImage": "/assets/images/campuses/campus-hadapsar-actual.webp"
   }
 ]
