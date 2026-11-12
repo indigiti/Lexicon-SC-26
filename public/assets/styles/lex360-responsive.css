@@ -1,0 +1,212 @@
+/*
+ * LEX360 homepage responsive composition (2026-11-12).
+ * Keep the five-pillar desktop orbit untouched. On narrow screens,
+ * reflow the clickable pillars into a real grid rather than scaling
+ * an absolutely positioned desktop diagram.
+ */
+
+/* The core bundle's later anchor-color rule accidentally makes the
+   white orbit centre inherit white text on the pale circle. */
+.home-page .lex360-panel a.orbit-center {
+  color: #0b285f;
+}
+.home-page .lex360-panel .orbit-center strong,
+.home-page .lex360-panel .orbit-center span {
+  color: #0b285f;
+}
+
+@media (max-width: 640px) {
+  .home-page .lex360-panel {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    min-height: 0;
+    padding: 28px 18px 22px;
+    overflow: hidden;
+  }
+
+  .home-page .lex360-panel > * {
+    min-width: 0;
+  }
+
+  .home-page .lex360-copy {
+    padding: 0;
+  }
+
+  .home-page .lex360-brand {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+
+  .home-page .lex360-copy h2 {
+    max-width: 100%;
+    margin: 0 0 18px;
+    font-size: clamp(29px, 8vw, 39px);
+    line-height: 1.13;
+    letter-spacing: -.043em;
+    overflow-wrap: normal;
+  }
+
+  /* Preserve deliberate three-line typography on desktop only. */
+  .home-page .lex360-desktop-break {
+    display: none;
+  }
+
+  .home-page .lex360-copy p {
+    max-width: 100%;
+    margin-bottom: 18px;
+    font-size: 13.5px;
+    line-height: 1.65;
+  }
+
+  .home-page .lex360-copy .custom-outline {
+    min-height: 48px;
+    margin-top: 0;
+  }
+
+  .home-page .lex360-panel .orbit-wrap {
+    isolation: isolate;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: stretch;
+    gap: 10px;
+    width: 100%;
+    min-width: 0;
+    min-height: 0;
+    margin: 26px 0 0;
+    padding: 4px 0 0;
+    transform: none;
+    transform-origin: center;
+  }
+
+  /* Retain delicate rings purely as decoration, behind the cards. */
+  .home-page .lex360-panel .orbit {
+    pointer-events: none;
+    z-index: 0;
+    left: 50%;
+    top: 69px;
+    opacity: .32;
+  }
+  .home-page .lex360-panel .orbit-1 { width: 170px; height: 170px; }
+  .home-page .lex360-panel .orbit-2 { width: 272px; height: 272px; }
+  .home-page .lex360-panel .orbit-3 { width: 378px; height: 378px; }
+
+  .home-page .lex360-panel a.orbit-center {
+    position: relative;
+    z-index: 2;
+    grid-column: 1 / -1;
+    justify-self: center;
+    left: auto;
+    top: auto;
+    width: 124px;
+    height: 124px;
+    margin: 0 0 13px;
+    transform: none;
+    box-shadow: 0 14px 30px rgba(0, 0, 0, .18);
+  }
+  .home-page .lex360-panel .orbit-center strong { font-size: 23px; }
+  .home-page .lex360-panel .orbit-center span { font-size: 10px; }
+
+  /* Reset every desktop absolute coordinate and reverse flex order. */
+  .home-page .lex360-panel a.pillar {
+    position: relative;
+    z-index: 2;
+    inset: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 9px;
+    min-width: 0;
+    max-width: none;
+    min-height: 127px;
+    padding: 13px 12px;
+    border: 1px solid rgba(190, 210, 255, .24);
+    border-radius: 13px;
+    background: rgba(255, 255, 255, .075);
+    text-align: left;
+    transform: none;
+  }
+  .home-page .lex360-panel .pillar .pillar-icon {
+    flex: 0 0 auto;
+    width: 44px;
+    height: 44px;
+    border-width: 4px;
+    font-size: 19px;
+  }
+  .home-page .lex360-panel .pillar .pillar-text {
+    order: 0;
+    align-items: flex-start;
+    width: 100%;
+    min-width: 0;
+    text-align: left;
+  }
+  .home-page .lex360-panel .pillar .pillar-text b {
+    font-size: 11px;
+    line-height: 1.3;
+  }
+  .home-page .lex360-panel .pillar .pillar-text strong {
+    font-size: 12px;
+    line-height: 1.35;
+    overflow-wrap: anywhere;
+  }
+  .home-page .lex360-panel .pillar .pillar-text span {
+    font-size: 10px;
+    line-height: 1.35;
+    overflow-wrap: anywhere;
+  }
+  .home-page .lex360-panel a.pillar-5 {
+    grid-column: 1 / -1;
+    flex-direction: row;
+    align-items: center;
+    min-height: 74px;
+  }
+
+  .home-page .lex360-panel a.lex360-bottom-card {
+    position: relative;
+    z-index: 2;
+    inset: auto;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    width: auto;
+    min-width: 0;
+    min-height: 69px;
+    margin: 0;
+    padding: 11px 10px;
+    background: rgba(255, 255, 255, .1);
+  }
+  .home-page .lex360-panel .lex360-bottom-card .emoji {
+    flex: 0 0 auto;
+    font-size: 20px;
+  }
+  .home-page .lex360-panel .lex360-bottom-card > span:last-child {
+    min-width: 0;
+  }
+  .home-page .lex360-panel .lex360-bottom-card b {
+    font-size: 11px;
+    line-height: 1.3;
+    overflow-wrap: anywhere;
+  }
+  .home-page .lex360-panel .lex360-bottom-card small {
+    font-size: 10px;
+    line-height: 1.3;
+    white-space: normal;
+  }
+}
+
+@media (max-width: 359px) {
+  .home-page .lex360-panel { padding-inline: 15px; }
+  .home-page .lex360-copy h2 { font-size: 28px; }
+  .home-page .lex360-panel a.lex360-bottom-card {
+    grid-column: 1 / -1;
+    min-height: 58px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .home-page .lex360-panel a.pillar .pillar-icon,
+  .home-page .lex360-panel a.lex360-bottom-card {
+    transition: none;
+  }
+}

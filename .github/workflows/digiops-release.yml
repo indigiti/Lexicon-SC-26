@@ -51,6 +51,7 @@ jobs:
           node --check public/build/assets/app.js
           cmp build/assets/app.css public/build/assets/app.css
           cmp build/assets/app.js public/build/assets/app.js
+          test -s public/assets/styles/lex360-responsive.css
           test -s public/assets/styles/apply-now-premium.css
           test -s public/assets/scripts/apply-now-premium.js
           node --check public/assets/scripts/apply-now-premium.js
@@ -90,6 +91,9 @@ jobs:
           grep -q 'Explore Schools' "$tmp/apply-now.html"
           grep -q 'Continue to Official Site' "$tmp/apply-now.html"
           grep -q '/lexiconschoolgroup/assets/styles/apply-now-premium.css' "$tmp/apply-now.html"
+          curl -fsS http://127.0.0.1:8765/lexiconschoolgroup/ > "$tmp/lex360-home.html"
+          grep -q '/lexiconschoolgroup/assets/styles/lex360-responsive.css' "$tmp/lex360-home.html"
+          curl -fsS http://127.0.0.1:8765/lexiconschoolgroup/assets/styles/lex360-responsive.css | grep -q 'grid-template-columns: repeat(2, minmax(0, 1fr))'
           curl -fsS http://127.0.0.1:8765/lexiconschoolgroup/assets/styles/apply-now-premium.css > /dev/null
           curl -fsS http://127.0.0.1:8765/lexiconschoolgroup/assets/scripts/apply-now-premium.js > /dev/null
           curl -fsS http://127.0.0.1:8765/lexiconschoolgroup/build/assets/app.js > /dev/null
