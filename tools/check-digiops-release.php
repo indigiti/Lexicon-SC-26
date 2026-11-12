@@ -7,6 +7,7 @@ $required = [
     'public/.htaccess',
     'public/router.php',
     'public/build/assets/app.css',
+    'public/assets/styles/lex360-responsive.css',
     'public/build/assets/app.js',
     'private/app/bootstrap.php',
     'private/app/Support/helpers.php',
