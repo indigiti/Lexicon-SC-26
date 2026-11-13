@@ -1,6 +1,11 @@
 <?php $site=content('site'); ?>
 <footer class="site-footer"><div class="container footer-grid">
-  <div class="footer-brand"><img src="/assets/images/brand/lexicon-schools-light.png" alt="The Lexicon Schools — Believe in Yourself" width="800" height="434"><p><?= e($site['footerText'] ?? '') ?></p></div>
+  <div class="footer-brand"><img src="/assets/images/brand/lexicon-schools-light.png" alt="The Lexicon Schools — Believe in Yourself" width="800" height="434"><p class="footer-brand-tagline">
+    <span style="color:#293783">Learning.</span>
+    <span style="color:#08703D">Growing.</span>
+    <span style="color:#B84414">Excelling.</span>
+    <span style="color:#8E2436">Innovating.</span>
+  </p></div>
   <div><b>Our Schools</b><a href="/schools/wagholi">Wagholi</a><a href="/schools/kalyani-nagar">Kalyani Nagar</a><a href="/schools/hadapsar">Hadapsar</a></div>
   <div><b>Admissions</b><a href="/admissions#process">How to Apply</a><a href="/apply-now">Apply Now</a><a href="/admissions#eligibility">Eligibility</a><a href="/admissions#faqs">FAQs</a></div>
   <div><b>The Lexicon Difference</b><a href="/lex360">LEX360</a><a href="/lex360#lexicore">Core Values</a><a href="/lex360#lexiconnect">Signature Experiences</a></div>
