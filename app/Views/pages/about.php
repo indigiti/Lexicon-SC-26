@@ -19,7 +19,7 @@
 <img src="<?= e($school['cardImage'] ?? $school['image']) ?>" alt="<?= e($school['name']) ?> entrance" width="320" height="158" loading="lazy" decoding="async">
 <div class="school-card-body"><h3><?= e($school['name']) ?></h3>
 <p><?= e($school['board']) ?> · <?= e($school['grades']) ?></p>
-<a class="text-link" href="/schools/<?= e($school['slug']) ?>">Explore School →</a>
+<a class="text-link" href="/schools/<?= e($school['slug']) ?>">Explore School</a>
 </div>
 </article>
 <?php endforeach; ?>
