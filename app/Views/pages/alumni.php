@@ -8,9 +8,9 @@
       <div class="hero-actions"><a class="btn btn-lexicon" href="#join">Join the Alumni Network ↗</a><a class="btn btn-outline-lexicon" href="#stories">Alumni Interviews &amp; Stories</a></div>
     </div>
     <div class="alumni-campus-mosaic" aria-label="The three Lexicon school communities">
-      <figure class="alumni-campus-feature"><img src="/assets/images/campuses/campus-wagholi.webp" alt="The Lexicon International School, Wagholi campus"><figcaption>Wagholi</figcaption></figure>
-      <figure><img src="/assets/images/campuses/campus-kalyani.webp" alt="The Lexicon International School, Kalyani Nagar campus"><figcaption>Kalyani Nagar</figcaption></figure>
-      <figure><img src="/assets/images/campuses/campus-hadapsar.webp" alt="The Lexicon School, Hadapsar campus"><figcaption>Hadapsar</figcaption></figure>
+      <figure class="alumni-campus-feature"><img src="<?= e(campus_photo('wagholi')) ?>" alt="The Lexicon International School, Wagholi campus"><figcaption>Wagholi</figcaption></figure>
+      <figure><img src="<?= e(campus_photo('kalyani-nagar')) ?>" alt="The Lexicon International School, Kalyani Nagar campus"><figcaption>Kalyani Nagar</figcaption></figure>
+      <figure><img src="<?= e(campus_photo('hadapsar')) ?>" alt="The Lexicon School, Hadapsar campus"><figcaption>Hadapsar</figcaption></figure>
     </div>
   </div>
 </section>
