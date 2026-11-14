@@ -6,7 +6,7 @@
     "board": "CBSE",
     "grades": "Nursery – Grade XII",
     "affiliation": "1130282",
-    "image": "/assets/images/campuses/campus-wagholi.webp",
+    "image": "/assets/images/campuses/campus-wagholi-actual.webp",
     "address": "Gat No. 726, Lexicon Estate, Pune–Nagar Road, Wagholi, Pune, Maharashtra 412207",
     "phone": "+91 80073 63070",
     "phoneHref": "+918007363070",
@@ -50,8 +50,7 @@
         "address": "info@lexiconedu.in"
       }
     ],
-    "landmark": "Pune–Nagar Road, Wagholi",
-    "cardImage": "/assets/images/campuses/campus-wagholi-actual.webp"
+    "landmark": "Pune–Nagar Road, Wagholi"
   },
   {
     "slug": "kalyani-nagar",
@@ -60,7 +59,7 @@
     "board": "CBSE",
     "grades": "Nursery – Grade XII",
     "affiliation": "1130609",
-    "image": "/assets/images/campuses/campus-kalyani.webp",
+    "image": "/assets/images/campuses/campus-kalyani-actual.webp",
     "address": "S No. 212/1, Plot No. 59, Central Avenue, Kalyani Nagar, Pune, Maharashtra 411006",
     "phone": "+91 84128 29287",
     "phoneHref": "+918412829287",
@@ -98,8 +97,7 @@
         "label": "General enquiries",
         "address": "info@lexiconedu.in"
       }
-    ],
-    "cardImage": "/assets/images/campuses/campus-kalyani-actual.webp"
+    ]
   },
   {
     "slug": "hadapsar",
@@ -108,7 +106,7 @@
     "board": "CBSE",
     "grades": "Nursery – Grade XII",
     "affiliation": "1130583",
-    "image": "/assets/images/campuses/campus-hadapsar.webp",
+    "image": "/assets/images/campuses/campus-hadapsar-actual.webp",
     "address": "Survey No. 208, Pune–Saswad Road, next to SP Infocity, Satavwadi, Hadapsar, Phursungi, Pune, Maharashtra 412308",
     "phone": "+91 95523 15075",
     "phoneHref": "+919552315075",
@@ -141,7 +139,6 @@
         "label": "General enquiries",
         "address": "info@lexiconedu.in"
       }
-    ],
-    "cardImage": "/assets/images/campuses/campus-hadapsar-actual.webp"
+    ]
   }
 ]

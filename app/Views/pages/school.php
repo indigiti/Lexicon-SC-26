@@ -8,7 +8,16 @@ foreach ($schools as $candidate) {
 }
 $school ??= [];
 $q = urlencode((string)($school['mapQuery'] ?? $campus['name'] ?? 'The Lexicon Schools Pune'));
-$galleryItems=content('campus-galleries')[$schoolSlug] ?? [];
+$galleryItems = content('campus-galleries')[$schoolSlug] ?? [];
+if (!empty($school['image'])) {
+    array_unshift($galleryItems, [
+        'image' => $school['image'],
+        'alt' => ($school['name'] ?? 'Lexicon campus') . ' main entrance',
+        'caption' => 'School entrance',
+        'approved' => true,
+    ]);
+}
+$galleryItems = array_filter($galleryItems, static fn(array $item): bool => !empty($item['image']) && !empty($item['approved']));
 $transportData = content('transport');
 $transportCampus = $transportData['campuses'][$schoolSlug] ?? [];
 $transportRoutes = (int)($transportCampus['route_count'] ?? 0);
@@ -36,7 +45,7 @@ $academicFmt = static function(string $date,string $format='d M'): string { try 
       </div>
     </div>
     <div class="school-hero-media">
-      <img src="<?= e($campus['image'] ?? $school['image'] ?? '') ?>" alt="<?= e($campus['name'] ?? $school['name'] ?? 'Lexicon school campus') ?>" fetchpriority="high" decoding="async">
+      <img src="<?= e($school['image'] ?? '') ?>" alt="<?= e($campus['name'] ?? $school['name'] ?? 'Lexicon school campus') ?>" fetchpriority="high" decoding="async">
       <div class="school-hero-badge"><span><?= e($campus['short'] ?? '') ?></span><small><?= e($school['board'] ?? 'CBSE') ?> · <?= e($school['grades'] ?? '') ?></small></div>
     </div>
   </div>
@@ -59,7 +68,7 @@ $academicFmt = static function(string $date,string $format='d M'): string { try 
     <?php foreach (($campus['story'] ?? []) as $paragraph): ?><p><?= e($paragraph) ?></p><?php endforeach; ?>
     <div class="school-inline-links"><a class="text-link" href="/lex360">Discover the Lexicon Difference →</a><a class="text-link" href="/about#philosophy">Vision, Mission &amp; Values →</a></div>
   </div>
-  <figure class="school-overview-media"><img src="<?= e($campus['image'] ?? '') ?>" alt="<?= e(($campus['short'] ?? '') . ' campus') ?>" loading="lazy"><figcaption><?= e($campus['name'] ?? '') ?></figcaption></figure>
+  <figure class="school-overview-media"><img src="<?= e($school['image'] ?? '') ?>" alt="<?= e(($campus['short'] ?? '') . ' campus') ?>" loading="lazy"><figcaption><?= e($campus['name'] ?? '') ?></figcaption></figure>
 </div></section>
 
 <section class="school-learning" id="learning"><div class="container">
@@ -76,14 +85,14 @@ $academicFmt = static function(string $date,string $format='d M'): string { try 
   <div class="school-campus-copy"><div class="eyebrow">Campus &amp; Facilities</div><h2 class="section-title">Designed for the rhythm of a school day.</h2><p>Academic spaces, technology, safety systems and student services work together to support learning from early years through Senior Secondary.</p>
     <div class="school-facility-grid"><?php foreach (($campus['facilities'] ?? []) as $facility): ?><article><strong><?= e($facility['value'] ?? '') ?></strong><h3><?= e($facility['label'] ?? '') ?></h3><p><?= e($facility['detail'] ?? '') ?></p></article><?php endforeach; ?></div>
   </div>
-  <div class="school-campus-visual"><img src="<?= e($campus['image'] ?? '') ?>" alt="Campus facilities at <?= e($campus['short'] ?? '') ?>" loading="lazy"><div class="campus-address-card"><span>Campus Address</span><address><?= e($school['address'] ?? '') ?></address><?php if (!empty($school['phone'])): ?><a href="tel:<?= e($school['phoneHref'] ?? '') ?>"><?= e($school['phone']) ?></a><?php endif; ?><?php if (!empty($school['email'])): ?><a href="mailto:<?= e($school['email']) ?>"><?= e($school['email']) ?></a><?php endif; ?></div></div>
+  <div class="school-campus-visual"><img src="<?= e($school['image'] ?? '') ?>" alt="<?= e(($school['name'] ?? 'Lexicon campus') . ' entrance') ?>" loading="lazy"><div class="campus-address-card"><span>Campus Address</span><address><?= e($school['address'] ?? '') ?></address><?php if (!empty($school['phone'])): ?><a href="tel:<?= e($school['phoneHref'] ?? '') ?>"><?= e($school['phone']) ?></a><?php endif; ?><?php if (!empty($school['email'])): ?><a href="mailto:<?= e($school['email']) ?>"><?= e($school['email']) ?></a><?php endif; ?></div></div>
 
 </div></section>
 
 <?php if (!empty($galleryItems)): ?>
 <section class="campus-gallery-section" id="gallery"><div class="container">
   <div class="section-head-row"><div><div class="eyebrow">Campus Gallery</div><h2 class="section-title">Explore <?= e($school['short'] ?? 'our school') ?>.</h2></div></div>
-  <div class="campus-gallery-grid"><?php foreach ($galleryItems as $item): if (empty($item['image']) || empty($item['approved'])) continue; ?>
+  <div class="campus-gallery-grid"><?php foreach ($galleryItems as $item): ?>
     <figure><img src="<?= e($item['image']) ?>" alt="<?= e($item['alt'] ?? 'Campus view') ?>" loading="lazy" decoding="async"><figcaption><?= e($item['caption'] ?? '') ?></figcaption></figure>
   <?php endforeach; ?></div>
   <p class="campus-gallery-note">Additional facility and activity photographs will be added after school review and image approval.</p>

@@ -13,6 +13,15 @@ function content(string $name): array
     return $repo->get($name);
 }
 
+/** Return the shared campus entrance photo for a fixed campus placement. */
+function campus_photo(string $slug): string
+{
+    foreach (content('schools') as $school) {
+        if (($school['slug'] ?? '') === $slug) return (string) ($school['image'] ?? '');
+    }
+    return '';
+}
+
 /**
  * Public URL prefix for this installation.
  *
